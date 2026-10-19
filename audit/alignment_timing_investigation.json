@@ -1,0 +1,125 @@
+{
+  "note": "All six fresh/archived work-count vectors agree. Seed2027 adaptive archived3.8917516s,fresh4.2493342s; its larger cost is present in archived data too.",
+  "comparisons": [
+    {
+      "seed": 2026,
+      "label": "new",
+      "prior_s": 2.628597,
+      "fresh_s": 2.1698523,
+      "work_identical": true,
+      "counts": {
+        "hvp_calls": 749,
+        "tcg_calls": 84,
+        "tcg_iterations": 580,
+        "nnls_calls": 102,
+        "guard_calls": 84,
+        "guard_accepted": 15,
+        "restoration_iterations": 384,
+        "threshold_refinements": 17,
+        "inward_qp_calls": 102,
+        "inward_qp_sweeps": 107,
+        "normal_newton_calls": 15
+      }
+    },
+    {
+      "seed": 2026,
+      "label": "old",
+      "prior_s": 1.5086509,
+      "fresh_s": 1.579334,
+      "work_identical": true,
+      "counts": {
+        "hvp_calls": 346,
+        "tcg_calls": 77,
+        "tcg_iterations": 245,
+        "nnls_calls": 74,
+        "guard_calls": 0,
+        "guard_accepted": 0,
+        "restoration_iterations": 8,
+        "threshold_refinements": 0,
+        "inward_qp_calls": 0,
+        "inward_qp_sweeps": 0,
+        "normal_newton_calls": 0
+      }
+    },
+    {
+      "seed": 2027,
+      "label": "old",
+      "prior_s": 1.6343491,
+      "fresh_s": 1.947853,
+      "work_identical": true,
+      "counts": {
+        "hvp_calls": 365,
+        "tcg_calls": 98,
+        "tcg_iterations": 244,
+        "nnls_calls": 96,
+        "guard_calls": 0,
+        "guard_accepted": 0,
+        "restoration_iterations": 5,
+        "threshold_refinements": 0,
+        "inward_qp_calls": 0,
+        "inward_qp_sweeps": 0,
+        "normal_newton_calls": 0
+      }
+    },
+    {
+      "seed": 2027,
+      "label": "new",
+      "prior_s": 3.8917516,
+      "fresh_s": 4.2493342,
+      "work_identical": true,
+      "counts": {
+        "hvp_calls": 818,
+        "tcg_calls": 107,
+        "tcg_iterations": 603,
+        "nnls_calls": 286,
+        "guard_calls": 107,
+        "guard_accepted": 34,
+        "restoration_iterations": 592,
+        "threshold_refinements": 178,
+        "inward_qp_calls": 286,
+        "inward_qp_sweeps": 288,
+        "normal_newton_calls": 34
+      }
+    },
+    {
+      "seed": 2028,
+      "label": "new",
+      "prior_s": 2.0582665,
+      "fresh_s": 2.5093326,
+      "work_identical": true,
+      "counts": {
+        "hvp_calls": 511,
+        "tcg_calls": 99,
+        "tcg_iterations": 312,
+        "nnls_calls": 110,
+        "guard_calls": 99,
+        "guard_accepted": 6,
+        "restoration_iterations": 331,
+        "threshold_refinements": 10,
+        "inward_qp_calls": 110,
+        "inward_qp_sweeps": 122,
+        "normal_newton_calls": 6
+      }
+    },
+    {
+      "seed": 2028,
+      "label": "old",
+      "prior_s": 2.2443161,
+      "fresh_s": 2.4627436,
+      "work_identical": true,
+      "counts": {
+        "hvp_calls": 564,
+        "tcg_calls": 131,
+        "tcg_iterations": 409,
+        "nnls_calls": 127,
+        "guard_calls": 0,
+        "guard_accepted": 0,
+        "restoration_iterations": 7,
+        "threshold_refinements": 0,
+        "inward_qp_calls": 0,
+        "inward_qp_sweeps": 0,
+        "normal_newton_calls": 0
+      }
+    }
+  ]
+}

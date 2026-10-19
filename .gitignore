@@ -1,0 +1,25 @@
+# Large numerical archives are distributed as versioned Release assets.
+*.mat
+release_assets/
+.downloads/
+data/
+
+# Local MATLAB, Python and editor products.
+*.asv
+*.m~
+*.mex*
+__pycache__/
+.DS_Store
+Thumbs.db
+*.synctex.gz
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+
+# New local executions; historical tracked audit logs remain available.
+results/logs/
+results/demo/
+*.tmp
+publication*.log

@@ -1,0 +1,19 @@
+function methods = simtwc_method_registry(keys)
+%SIMTWC_METHOD_REGISTRY Paper names and fixed color/line identities.
+
+all_methods = struct( ...
+    'key',{'zf_bf','so_bf','pfo_alm','ptr_alm','mrfp_sca','costar','sdr_sca'}, ...
+    'name',{'ZF-BF','SO-BF','PFO-ALM','PTR-ALM','MRFP-SCA','COSTAR','SDR-SCA'}, ...
+    'color',{[0.10 0.10 0.10],[0.90 0.62 0.00],[0.00 0.45 0.70], ...
+        [0.00 0.62 0.45],[0.84 0.37 0.00],[0.80 0.12 0.20],[0.42 0.28 0.68]}, ...
+    'marker',{'x','+','o','s','^','d','v'}, ...
+    'line',{'--',':','-.','--','-.','-','-.'});
+if nargin<1 || isempty(keys); methods=all_methods; return; end
+keys = cellstr(string(keys));
+methods = repmat(all_methods(1),1,numel(keys));
+for k=1:numel(keys)
+    idx=find(strcmp({all_methods.key},keys{k}),1);
+    if isempty(idx); error('Unknown method key: %s',keys{k}); end
+    methods(k)=all_methods(idx);
+end
+end

@@ -1,0 +1,23 @@
+    seed    old_median_s    new_median_s    paired_runtime_ratio    relative_crlb_difference
+    ____    ____________    ____________    ____________________    ________________________
+
+    2026       1.5793          2.1699              1.3739                  1.4933e-10       
+    2027       1.9479           4.174              2.1429                  1.9798e-10       
+    2028       2.4627          2.4985              1.0145                  4.1898e-12       
+
+                              passed: 1
+                       paired_inputs: 3
+              repetitions_per_solver: 3
+                     fresh_processes: 18
+                             threads: 1
+                   mean_old_median_s: 1.9966
+                   mean_new_median_s: 2.9475
+               ratio_of_mean_medians: 1.4762
+           mean_paired_runtime_ratio: 1.5104
+    maximum_relative_crlb_difference: 1.9798e-10
+                    old_joint_passes: 9
+                    new_joint_passes: 9
+     new_own_multiplier_joint_passes: 9
+                         consistency: [1x1 struct]
+                         aggregation: 'Median of all three fresh-process repeats per solver/seed; mean across three paired seeds. Initial runs retained.'
+

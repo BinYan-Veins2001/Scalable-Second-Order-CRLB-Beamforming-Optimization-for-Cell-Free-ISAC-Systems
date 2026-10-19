@@ -1,0 +1,2 @@
+seed,LICQ,strict_positive_multipliers,horizontal_positive_definite,all_local_assumptions,min_active_multiplier,horizontal_lambda_min,reference_tangent_residual,reference_face_residual,max_face_ratio,max_linear_forcing_ratio,max_normal_ratio,qualified_samples,noncontracting_samples,full_NNLS_KKT
+2026,1,0,0,0,0,-8.15654406903927e-16,4.94139559945458e-15,2.50443512407418e-12,0.445023626991848,0.0970319365797545,0.265110977782103,11,0,9.04165631254727e-13

@@ -1,0 +1,24 @@
+[Paper case] local_theory, seed 2026, costar
+                            licq: 1
+            positive_multipliers: 1
+       minimum_active_multiplier: 0.0119
+           horizontal_lambda_min: -5.8008e-17
+    horizontal_positive_definite: 0
+       horizontal_spectral_scale: 1
+                   face_residual: 6.9723e-15
+                tangent_residual: 5.6143e-15
+                     active_rank: 16
+            horizontal_dimension: 111
+
+{错误使用 assert
+Controlled local reference does not satisfy the declared local regularity/accuracy tests.
+
+出错 paperfig_compute05>local_trial (第 93 行)
+assert(reference_check.licq && reference_check.positive_multipliers && ...
+
+出错 paperfig_compute05 (第 29 行)
+    d.trials{t}=local_trial(p,run,o); d.done(t)=true; simtwc_save_atomic(archive,d);
+
+出错 main_fig05_local_quadratic (第 5 行)
+archive=paperfig_compute05(options); o=paperfig_options(options);
+} 

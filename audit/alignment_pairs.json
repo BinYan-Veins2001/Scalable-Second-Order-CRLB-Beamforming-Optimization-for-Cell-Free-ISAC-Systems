@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "paired_trials": 3,
+  "default_size": [
+    16,
+    4,
+    4,
+    8
+  ],
+  "threads": 1,
+  "maximum_relative_crlb_difference": 1.9798299539500079E-10,
+  "mean_old_runtime_s": 1.9966435333333334,
+  "mean_new_runtime_s": 2.9761730333333336,
+  "mean_runtime_ratio": 1.4905880712541144,
+  "old_joint_passes": 3,
+  "new_joint_passes": 3,
+  "new_own_multiplier_joint_passes": 3,
+  "maximum_new_own_kkt": 6.445687241411557E-6,
+  "minimum_new_own_tangent_eigenvalue": -1.6495536259930823E-6,
+  "maximum_new_cone_tolerance": 7.500000000000001E-6,
+  "timing_note": "Fresh single-thread processes; execute jobs sequentially with other heavy jobs paused."
+}

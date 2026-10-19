@@ -1,0 +1,76 @@
+    {'baseline_sync_at'      }
+    {'baseline_sync_gamma_dB'}
+    {'baseline_sync_source'  }
+    {'code_version'          }
+    {'complete'              }
+    {'completed_at'          }
+    {'created_at'            }
+    {'feasible'              }
+    {'figure_id'             }
+    {'final_crlb'            }
+    {'kkt_residual'          }
+    {'methods'               }
+    {'quick'                 }
+    {'runs'                  }
+    {'runtime_s'             }
+    {'schema_version'        }
+    {'seeds'                 }
+    {'signature'             }
+    {'spec'                  }
+
+    {'key'                  }
+    {'seed'                 }
+    {'elapsed_s'            }
+    {'metrics'              }
+    {'feasible'             }
+    {'kkt'                  }
+    {'Wmat'                 }
+    {'wcell'                }
+    {'solver_success'       }
+    {'message'              }
+    {'history'              }
+    {'solution'             }
+    {'runtime_repetitions_s'}
+    {'runtime_median_s'     }
+    {'runtime_definition'   }
+    {'status'               }
+
+                  M: 16
+                  U: 8
+                 Nt: 4
+                 Nr: 4
+           gamma_dB: 10
+    min_ap_distance: 10
+              seeds: [2026 2027 2028 2029 2030 2031 2032 2033 2034 2035]
+
+    {'M'              }
+    {'U'              }
+    {'Nt'             }
+    {'Nr'             }
+    {'gamma_dB'       }
+    {'min_ap_distance'}
+    {'seeds'          }
+
+                            licq: 1
+            positive_multipliers: 0
+       minimum_active_multiplier: 0
+           horizontal_lambda_min: -8.1565e-16
+    horizontal_positive_definite: 0
+       horizontal_spectral_scale: 1
+                   face_residual: 2.5044e-12
+                tangent_residual: 4.9414e-15
+                     active_rank: 22
+            horizontal_dimension: 994
+
+{错误使用 assert
+Controlled local reference does not satisfy the declared local regularity/accuracy tests.
+
+出错 paperfig_compute05>local_trial (第 90 行)
+assert(reference_check.licq && reference_check.positive_multipliers && ...
+
+出错 paperfig_compute05 (第 26 行)
+    d.trials{t}=local_trial(p,run,o); d.done(t)=true; simtwc_save_atomic(archive,d);
+
+出错 main_fig05_local_quadratic (第 5 行)
+archive=paperfig_compute05(options); o=paperfig_options(options);
+} 

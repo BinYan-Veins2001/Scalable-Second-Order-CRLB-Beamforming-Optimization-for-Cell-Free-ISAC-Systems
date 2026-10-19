@@ -1,0 +1,487 @@
+{
+  "source_folder": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_TWC_Simulations_ExactHVP_PTR_20260907",
+  "archive": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_TWC_Simulations_ExactHVP_PTR_20260907\\data\\fig03_data.mat",
+  "archive_sha256": "18525bcd84e6d34c99c37f2ede0959bff6a7b6638273ca3ec297b31c756fe940",
+  "all_baseline_sources_match": true,
+  "baseline_physical_config_prefix_matches": true,
+  "source_files": [
+    {
+      "path": "baselines/build_global_aggregate_zf_initializer.m",
+      "source_sha256": "d0d663740c7934ece49f676a0af858f5a4b041420c1eaf0de39f015472f20bfa",
+      "current_sha256": "d0d663740c7934ece49f676a0af858f5a4b041420c1eaf0de39f015472f20bfa",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "baselines/build_low_complexity_theorem_aware_initializer.m",
+      "source_sha256": "635b6bbe7fbf319ba93dbde1fa021b493069358b27c331ed1aabc3bd77285f99",
+      "current_sha256": "635b6bbe7fbf319ba93dbde1fa021b493069358b27c331ed1aabc3bd77285f99",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "baselines/build_sensing_oriented_beamformer.m",
+      "source_sha256": "43bcd9102082bb6c4a324552fb3f5d8c16971ed8cc76122c2e058941f5d0a73d",
+      "current_sha256": "43bcd9102082bb6c4a324552fb3f5d8c16971ed8cc76122c2e058941f5d0a73d",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "baselines/build_shared_theorem_aware_zf_initializer.m",
+      "source_sha256": "54931a484861ed6b6fbf326d851d773c7108b8055e9aba36aa1bdebba7f70d5e",
+      "current_sha256": "54931a484861ed6b6fbf326d851d773c7108b8055e9aba36aa1bdebba7f70d5e",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "baselines/build_zf_beamformer.m",
+      "source_sha256": "4cebfa280c0b29479f4d3923cb06289e248a4ae1a89d06b6c5bd0fb9bbdf9187",
+      "current_sha256": "4cebfa280c0b29479f4d3923cb06289e248a4ae1a89d06b6c5bd0fb9bbdf9187",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "baselines/optimize_fixed_direction_power_allocation.m",
+      "source_sha256": "00decd79cdf7732b9506b1e50f591ff72d0c20491f65667be3525b269833983e",
+      "current_sha256": "00decd79cdf7732b9506b1e50f591ff72d0c20491f65667be3525b269833983e",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "channels/generate_channels.m",
+      "source_sha256": "c085db0654a917f562ed2a6ad3a3cf13a07fdc0e4cafbbafbee188330253841d",
+      "current_sha256": "c085db0654a917f562ed2a6ad3a3cf13a07fdc0e4cafbbafbee188330253841d",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "channels/steering_ula.m",
+      "source_sha256": "6bfee5377b7f58848c6471f06fde7dae44b89a9a8af944128017c6168f082c72",
+      "current_sha256": "6bfee5377b7f58848c6471f06fde7dae44b89a9a8af944128017c6168f082c72",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "scenario/generate_scenario.m",
+      "source_sha256": "3cfe56d6123e370f6d490adb8083da3cb62a849bb83c9ddc6543e0f71d27db9b",
+      "current_sha256": "3cfe56d6123e370f6d490adb8083da3cb62a849bb83c9ddc6543e0f71d27db9b",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "crlb/build_sensing_matrices.m",
+      "source_sha256": "88397f54528bca32ea31cd3e2f9f1719d6454617bb35adc43000971c9151b57a",
+      "current_sha256": "88397f54528bca32ea31cd3e2f9f1719d6454617bb35adc43000971c9151b57a",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "crlb/compute_crlb_from_w.m",
+      "source_sha256": "cd0dae250df38050b1272ec4273b45658a3e3135838e6c7e21cc09269e095886",
+      "current_sha256": "cd0dae250df38050b1272ec4273b45658a3e3135838e6c7e21cc09269e095886",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "crlb/compute_g_values_from_W.m",
+      "source_sha256": "2ec652065c46f9718b43684730ad83e4122fd1d6abb7839c68512ad86db4445b",
+      "current_sha256": "2ec652065c46f9718b43684730ad83e4122fd1d6abb7839c68512ad86db4445b",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/add_project_paths.m",
+      "source_sha256": "079d8994898f0eb83193ebe6128555db023b44b200201e1e9f953b9e1c63525d",
+      "current_sha256": "079d8994898f0eb83193ebe6128555db023b44b200201e1e9f953b9e1c63525d",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/block_indices.m",
+      "source_sha256": "4f294cc7f7158ae3667344f58f9a8fdc78afc4235092375a007dfd9a381078ba",
+      "current_sha256": "4f294cc7f7158ae3667344f58f9a8fdc78afc4235092375a007dfd9a381078ba",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/complex_matrix_to_real_vector.m",
+      "source_sha256": "4929206b8a73042a4fee706a1db2d736a824b93bb8ff2fc9c877e586bf7c2c39",
+      "current_sha256": "4929206b8a73042a4fee706a1db2d736a824b93bb8ff2fc9c877e586bf7c2c39",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/compute_target_geometry_for_ula.m",
+      "source_sha256": "0b8518fb108336447ce8d15f4a2de79146fd589575b7d40058d25db36f926a3c",
+      "current_sha256": "0b8518fb108336447ce8d15f4a2de79146fd589575b7d40058d25db36f926a3c",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/db2pow.m",
+      "source_sha256": "8f41967e7d9b659d8a8b888ba0a39d687ed90d033e5d8336486bfc810be1676a",
+      "current_sha256": "8f41967e7d9b659d8a8b888ba0a39d687ed90d033e5d8336486bfc810be1676a",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/dbm2w.m",
+      "source_sha256": "6ae67be1d520979757d157a2150ce9ae4f64905b595742e36fad02b6f68d9c3b",
+      "current_sha256": "6ae67be1d520979757d157a2150ce9ae4f64905b595742e36fad02b6f68d9c3b",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/describe_costar_initializer.m",
+      "source_sha256": "6a1d4d3d350c4f2edb180cc2306811b6909bb29d5eca5170937ed13f0cac6174",
+      "current_sha256": "6a1d4d3d350c4f2edb180cc2306811b6909bb29d5eca5170937ed13f0cac6174",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/devectorize_wvec.m",
+      "source_sha256": "9fe7ac961dc6b7015668a6fac943e2176b8626c38840ac1de226c3c930f31014",
+      "current_sha256": "9fe7ac961dc6b7015668a6fac943e2176b8626c38840ac1de226c3c930f31014",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/hermitianize.m",
+      "source_sha256": "1ed4d74ee3ce26644cfd008d275f4ba9a29e47eebeaff34ec92f976dd31518f6",
+      "current_sha256": "1ed4d74ee3ce26644cfd008d275f4ba9a29e47eebeaff34ec92f976dd31518f6",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/matrix_to_wcell.m",
+      "source_sha256": "a5a7b9b2d0474a557a5322eceb79dca3ef751647cb3f2ccc9c52961ad9aaf176",
+      "current_sha256": "a5a7b9b2d0474a557a5322eceb79dca3ef751647cb3f2ccc9c52961ad9aaf176",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/pow2db.m",
+      "source_sha256": "05641d55e0006e84cb3e7f560c108e29dff98e7d510e0eaaf84fec94e9c93a30",
+      "current_sha256": "05641d55e0006e84cb3e7f560c108e29dff98e7d510e0eaaf84fec94e9c93a30",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/real_vector_to_complex_matrix.m",
+      "source_sha256": "4ec9cd22acb5c41481e2e55145a3a96a9b13e6a9fc7d6fd55b1f19dd1a85235d",
+      "current_sha256": "4ec9cd22acb5c41481e2e55145a3a96a9b13e6a9fc7d6fd55b1f19dd1a85235d",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/save_mat_checkpoint_atomic.m",
+      "source_sha256": "4d62c97b1889653147eb7946f108e01ef4472e3c6e12746bd792b7fa048efc2d",
+      "current_sha256": "4d62c97b1889653147eb7946f108e01ef4472e3c6e12746bd792b7fa048efc2d",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/vectorize_wcell.m",
+      "source_sha256": "a94fd8e6d6a8780765ddedd8506d413ef4fa7cf6598aee586fa277b7883c2e64",
+      "current_sha256": "a94fd8e6d6a8780765ddedd8506d413ef4fa7cf6598aee586fa277b7883c2e64",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/vectorize_wcell_to_matrix.m",
+      "source_sha256": "5d2f5c01290e4cdde6429c0086fd06860721b4e851cc9929419b2041d3bc8e35",
+      "current_sha256": "5d2f5c01290e4cdde6429c0086fd06860721b4e851cc9929419b2041d3bc8e35",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "utils/w2dbm.m",
+      "source_sha256": "0a5f24a16bdf04fdee34ab7d5c34ed94cf4eeb1d8cc764f387d2666909990686",
+      "current_sha256": "0a5f24a16bdf04fdee34ab7d5c34ed94cf4eeb1d8cc764f387d2666909990686",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/apply_power_safeguard.m",
+      "source_sha256": "62906771468d3b4b1191a116a5f9227d61cf65444c81c8f1fbbd97135437a80e",
+      "current_sha256": "62906771468d3b4b1191a116a5f9227d61cf65444c81c8f1fbbd97135437a80e",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/augmented_lagrangian_value_grad.m",
+      "source_sha256": "59aa22eb25e68382150dc2c7cd8396bdef5181363ab06776f2e299d83bc8976f",
+      "current_sha256": "59aa22eb25e68382150dc2c7cd8396bdef5181363ab06776f2e299d83bc8976f",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/compute_constraints_grad.m",
+      "source_sha256": "2e38b9df0e926f726bd0db90717bbf80c2f7c781712d6cf27b75b65fff153cd2",
+      "current_sha256": "2e38b9df0e926f726bd0db90717bbf80c2f7c781712d6cf27b75b65fff153cd2",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/compute_crlb_objective_grad.m",
+      "source_sha256": "aee2a9cab1ff665af6829273b25426018ed86cbfed40ac07b4e7a8df16be5061",
+      "current_sha256": "aee2a9cab1ff665af6829273b25426018ed86cbfed40ac07b4e7a8df16be5061",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/configure_costar_tr_stage.m",
+      "source_sha256": "1d65656f5e5f9226e028744ab114c224d503f27def9f7d956a39af61d8e061a4",
+      "current_sha256": "1d65656f5e5f9226e028744ab114c224d503f27def9f7d956a39af61d8e061a4",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/estimate_min_curvature_lanczos.m",
+      "source_sha256": "296e7379d6f14fd810b8ff4e5f66e1c33b3cc7238b60423bb4bd6729438a7406",
+      "current_sha256": "296e7379d6f14fd810b8ff4e5f66e1c33b3cc7238b60423bb4bd6729438a7406",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/evaluate_as_rtr_initialization_certificate.m",
+      "source_sha256": "a50647a8b80b103696019b03f749aad5af4157c6410cdf2166b7bb5defa4e89e",
+      "current_sha256": "a50647a8b80b103696019b03f749aad5af4157c6410cdf2166b7bb5defa4e89e",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/evaluate_beamforming_solution.m",
+      "source_sha256": "6b6ace404122b2e76828f5ff90d6b2753064513193a7f41eeed3af0030725223",
+      "current_sha256": "6b6ace404122b2e76828f5ff90d6b2753064513193a7f41eeed3af0030725223",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/evaluate_lifted_solution.m",
+      "source_sha256": "279d6ba536c7fe26c8c6491520e22a4c7a45fece541886938464c34f98d7791a",
+      "current_sha256": "279d6ba536c7fe26c8c6491520e22a4c7a45fece541886938464c34f98d7791a",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/evaluate_normalized_kkt_residual.m",
+      "source_sha256": "b81bb9f1d1b93531192c54da5d3655feffd392d7f14742c46528feeda0066be9",
+      "current_sha256": "b81bb9f1d1b93531192c54da5d3655feffd392d7f14742c46528feeda0066be9",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/evaluate_second_order_stationarity.m",
+      "source_sha256": "44882430bdc46500ebaf6cb59e3f5c6f2a4f0d508efe1066890d48c227525afa",
+      "current_sha256": "44882430bdc46500ebaf6cb59e3f5c6f2a4f0d508efe1066890d48c227525afa",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/evaluate_second_order_stationarity_history.m",
+      "source_sha256": "1d5784d29c503e9d2f745e3a56f9cd51cd58d0a0022fcea6442bb836d81157a8",
+      "current_sha256": "1d5784d29c503e9d2f745e3a56f9cd51cd58d0a0022fcea6442bb836d81157a8",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/exact_lagrangian_hess_vec.m",
+      "source_sha256": "cfbdeffb7857f3fa72f83ca57d899aeb66f9551e64c4d06a53d6992fe1b05092",
+      "current_sha256": "cfbdeffb7857f3fa72f83ca57d899aeb66f9551e64c4d06a53d6992fe1b05092",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/hess_vec_fd.m",
+      "source_sha256": "3377fd933c253faa895be9f5f09d52424d940dcb00d9aa0e9ac05dd466c223a7",
+      "current_sha256": "3377fd933c253faa895be9f5f09d52424d940dcb00d9aa0e9ac05dd466c223a7",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/initialize_beamformer_identity.m",
+      "source_sha256": "6f3d19e1a35dc98b0d41093ef529dea7738542f0f735e4cfa3499936a1b54e8f",
+      "current_sha256": "6f3d19e1a35dc98b0d41093ef529dea7738542f0f735e4cfa3499936a1b54e8f",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/perturb_power_tangent_space.m",
+      "source_sha256": "b5ea38671f6c2db3d3b3562eb5eb2e190c23bca06f1319ee27bc92379b8c0f1f",
+      "current_sha256": "b5ea38671f6c2db3d3b3562eb5eb2e190c23bca06f1319ee27bc92379b8c0f1f",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr.m",
+      "source_sha256": "fea9d5c533e1bba507f17049701c8f3a8274e2320966d389df5882751e5dfb13",
+      "current_sha256": "fea9d5c533e1bba507f17049701c8f3a8274e2320966d389df5882751e5dfb13",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr_core.m",
+      "source_sha256": "2997ab68c472ee3a156c244fb0822bacacca71c73025b3040ddf7daa0cbcaef8",
+      "current_sha256": "2997ab68c472ee3a156c244fb0822bacacca71c73025b3040ddf7daa0cbcaef8",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr_simplified.m",
+      "source_sha256": "21d69c45b7c2cb820bdcd0319958af0c5f5bd6a75d31e019edabbf642385119c",
+      "current_sha256": "21d69c45b7c2cb820bdcd0319958af0c5f5bd6a75d31e019edabbf642385119c",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/project_per_ap_power_matrix.m",
+      "source_sha256": "d7310e01a63e53700d3eadd53ad699fc8008521acd6507154970b472e4e36a1c",
+      "current_sha256": "d7310e01a63e53700d3eadd53ad699fc8008521acd6507154970b472e4e36a1c",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/projected_grad_mapping_norm.m",
+      "source_sha256": "6d7c5063a64570ec6fe22f9c58c1e13732d2697eef54bfb3da27daed77e1b177",
+      "current_sha256": "6d7c5063a64570ec6fe22f9c58c1e13732d2697eef54bfb3da27daed77e1b177",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/recover_beamformers_from_W.m",
+      "source_sha256": "02ac6754f48dfd6c416746131eb31e622211feb83b430c0ac7aa0dbf70c95ca1",
+      "current_sha256": "02ac6754f48dfd6c416746131eb31e622211feb83b430c0ac7aa0dbf70c95ca1",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/restore_sinr_near_reference.m",
+      "source_sha256": "156e67041690dafbbdfd028465b0c8d8041384d3f17660cd310302367d72a142",
+      "current_sha256": "156e67041690dafbbdfd028465b0c8d8041384d3f17660cd310302367d72a142",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/sinr_augmented_lagrangian_hess_vec.m",
+      "source_sha256": "c4854469cfe13b976a0c90d60bb777989e8325112a8b88ea6a9e8c6cb6137afd",
+      "current_sha256": "c4854469cfe13b976a0c90d60bb777989e8325112a8b88ea6a9e8c6cb6137afd",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/sinr_augmented_lagrangian_value_grad.m",
+      "source_sha256": "eee5446b979ffbe535ed8c67849a64c2442fbbe848179cfeeabf3b8a8e1338b5",
+      "current_sha256": "eee5446b979ffbe535ed8c67849a64c2442fbbe848179cfeeabf3b8a8e1338b5",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_active_rtr_phase2.m",
+      "source_sha256": "6d26676ce6ff636a40cb057fd01ea90fa09b65d254cb5eb00808821c18969f83",
+      "current_sha256": "6d26676ce6ff636a40cb057fd01ea90fa09b65d254cb5eb00808821c18969f83",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_alm_first_order.m",
+      "source_sha256": "aa378a26353828916eec20c6a7bd5b600fd39dbc8fbc8dc3f0e28353f7dc5a85",
+      "current_sha256": "aa378a26353828916eec20c6a7bd5b600fd39dbc8fbc8dc3f0e28353f7dc5a85",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_alm_first_order_projected_power.m",
+      "source_sha256": "ba15d79bac835f55a38a08a3c984bb78b59432a6e45b8f6a21c6e75629258b66",
+      "current_sha256": "ba15d79bac835f55a38a08a3c984bb78b59432a6e45b8f6a21c6e75629258b66",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_alm_trust_region.m",
+      "source_sha256": "f70306b162bd32b659631c6cd8130d945bc4f71ec21216644a52d49144c282b2",
+      "current_sha256": "f70306b162bd32b659631c6cd8130d945bc4f71ec21216644a52d49144c282b2",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_global_aggregate_zf_as_rtr.m",
+      "source_sha256": "6f3b5276375c360de99fe2d972807ad448ef83d78c4a54a5e5580efbd46f59f2",
+      "current_sha256": "6f3b5276375c360de99fe2d972807ad448ef83d78c4a54a5e5580efbd46f59f2",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_low_complexity_theorem_aware_as_rtr.m",
+      "source_sha256": "df6b5807b850aa264becce110e87eccca65a7fb102632741370a9b832b07e5cb",
+      "current_sha256": "df6b5807b850aa264becce110e87eccca65a7fb102632741370a9b832b07e5cb",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_mrfp_sca.m",
+      "source_sha256": "c599d4b2da6a9e15b4760a2d92ac7d8df2fd8893ccd903668efb1280de64f428",
+      "current_sha256": "c599d4b2da6a9e15b4760a2d92ac7d8df2fd8893ccd903668efb1280de64f428",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_mrfp_sca_with_costar_initializer.m",
+      "source_sha256": "667a635c7c953baf442fb9377e10713b38c550208e41f2abfedc41cc64856291",
+      "current_sha256": "667a635c7c953baf442fb9377e10713b38c550208e41f2abfedc41cc64856291",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_pfo_alm_as_rtr.m",
+      "source_sha256": "337e08d44f0a5b876fa6b256f10c9f43e2031165f5ed63b5904bb2527ca9137c",
+      "current_sha256": "337e08d44f0a5b876fa6b256f10c9f43e2031165f5ed63b5904bb2527ca9137c",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_random_rank_one_as_rtr.m",
+      "source_sha256": "11921b84ba67988582c995cbcb4c1252474d0099064d738ea80a1a6657569948",
+      "current_sha256": "11921b84ba67988582c995cbcb4c1252474d0099064d738ea80a1a6657569948",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_sca_sdr.m",
+      "source_sha256": "ea1b0025764fb0f78d94435c91b51ccc9b6f8681f84f82eb04f0b7e3202db8ef",
+      "current_sha256": "ea1b0025764fb0f78d94435c91b51ccc9b6f8681f84f82eb04f0b7e3202db8ef",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_sca_sdr_rank_continuation.m",
+      "source_sha256": "40bb2901578c22b6b8877d62c1ef328753868cd158dd6499af10d88eebfbadab",
+      "current_sha256": "40bb2901578c22b6b8877d62c1ef328753868cd158dd6499af10d88eebfbadab",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_tr_alm.m",
+      "source_sha256": "4498e0539e0157ea4a27896e7ed032e495b7b6409811cb1d3555238cf365e78f",
+      "current_sha256": "4498e0539e0157ea4a27896e7ed032e495b7b6409811cb1d3555238cf365e78f",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/solve_zf_bf_as_rtr.m",
+      "source_sha256": "0983757bd2f20681e2938a2002e973e5ee3e12fd886d4f12c8f4fec23ea364f8",
+      "current_sha256": "0983757bd2f20681e2938a2002e973e5ee3e12fd886d4f12c8f4fec23ea364f8",
+      "eligible": true,
+      "inactive_NC_off_branch_only": false
+    },
+    {
+      "path": "optimization/trust_region_tcg.m",
+      "source_sha256": "143fab01f421c1ce153fc8db16dcac7833ecb975010f802170f2c2d96cbcaa66",
+      "current_sha256": "eea6e5b63272780c246827a90ea01f8992117fad69dc91503fb247a501b93aee",
+      "eligible": true,
+      "inactive_NC_off_branch_only": true
+    }
+  ],
+  "exceptions": "Current tCG only adds a branch when detect_negative_curvature=false; baseline PTR-ALM uses the unchanged true default. COSTAR and curvature diagnostic source files are not reused.",
+  "bad": []
+}

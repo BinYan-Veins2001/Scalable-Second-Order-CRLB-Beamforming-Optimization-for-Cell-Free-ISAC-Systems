@@ -1,0 +1,28 @@
+                 weak_active_descent: 1
+                   unscaled_geometry: 1
+                    dependent_inward: 1
+    incompatible_near_active_release: 1
+            infeasible_budget_status: 1
+          empty_and_strict_selection: 1
+                  narrow_inward_cone: 1
+
+                             passed: 1
+          dense_inertia_comparisons: 16
+                      ambient_first: 1
+                tangent_certificate: 1
+    deterministic_negative_recovery: 1
+          singular_shift_reselected: 1
+
+                            passed: 1
+            analytic_kkt_certified: 1
+             analytic_kkt_residual: 0
+    analytic_curvature_lower_bound: -7.5000e-06
+             nc_objective_decrease: 0.0024
+                nc_primal_residual: 0
+            normal_newton_accepted: 1
+        stale_certificate_rejected: 1
+           randomized_krylov_calls: 0
+
+GUARD PATH CACHE passed: max objective 1.78e-15, constraint 7.02e-15, decrease 5.42e-19.
+PAPER ALIGNMENT small: success=1 CRLB=8.87732731 KKT=1e-06 eigT=-1.29e-12; deterministic numerical first/second-order stopping tests passed
+LATEST ALIGNMENT: 5 mechanism suites passed.

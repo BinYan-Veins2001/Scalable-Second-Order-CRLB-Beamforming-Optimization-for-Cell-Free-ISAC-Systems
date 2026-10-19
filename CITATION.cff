@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying COSTAR manuscript and this version of the research code."
+type: software
+title: "COSTAR: Scalable Second-Order CRLB Beamforming Optimization for Cell-Free ISAC Systems"
+authors:
+  - family-names: Yan
+    given-names: Bin
+version: "2026.10.20"
+date-released: "2026-10-20"
+license: MIT
+repository-code: "https://github.com/BinYan-Veins2001/Scalable-Second-Order-CRLB-Beamforming-Optimization-for-Cell-Free-ISAC-Systems"
+keywords:
+  - cell-free ISAC
+  - CRLB
+  - beamforming
+  - trust-region methods
+  - structured matrix inertia
+  - MATLAB

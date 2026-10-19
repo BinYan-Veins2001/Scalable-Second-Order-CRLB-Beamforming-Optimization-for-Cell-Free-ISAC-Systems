@@ -1,0 +1,851 @@
+{
+  "source_root": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_Safeguard_Adaptive_20261019",
+  "new_root": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_PaperFigures_20261019",
+  "files": [
+    {
+      "path": "baselines/build_global_aggregate_zf_initializer.m",
+      "sha256": "d0d663740c7934ece49f676a0af858f5a4b041420c1eaf0de39f015472f20bfa",
+      "bytes": 12248
+    },
+    {
+      "path": "baselines/build_low_complexity_theorem_aware_initializer.m",
+      "sha256": "635b6bbe7fbf319ba93dbde1fa021b493069358b27c331ed1aabc3bd77285f99",
+      "bytes": 10897
+    },
+    {
+      "path": "baselines/build_sensing_oriented_beamformer.m",
+      "sha256": "43bcd9102082bb6c4a324552fb3f5d8c16971ed8cc76122c2e058941f5d0a73d",
+      "bytes": 1706
+    },
+    {
+      "path": "baselines/build_shared_theorem_aware_zf_initializer.m",
+      "sha256": "54931a484861ed6b6fbf326d851d773c7108b8055e9aba36aa1bdebba7f70d5e",
+      "bytes": 2471
+    },
+    {
+      "path": "baselines/build_zf_beamformer.m",
+      "sha256": "4cebfa280c0b29479f4d3923cb06289e248a4ae1a89d06b6c5bd0fb9bbdf9187",
+      "bytes": 1859
+    },
+    {
+      "path": "baselines/optimize_fixed_direction_power_allocation.m",
+      "sha256": "00decd79cdf7732b9506b1e50f591ff72d0c20491f65667be3525b269833983e",
+      "bytes": 15135
+    },
+    {
+      "path": "channels/generate_channels.m",
+      "sha256": "c085db0654a917f562ed2a6ad3a3cf13a07fdc0e4cafbbafbee188330253841d",
+      "bytes": 1261
+    },
+    {
+      "path": "channels/steering_ula.m",
+      "sha256": "6bfee5377b7f58848c6471f06fde7dae44b89a9a8af944128017c6168f082c72",
+      "bytes": 303
+    },
+    {
+      "path": "config/default_config.m",
+      "sha256": "6d5d1c93e2969e7b70962e0aabd15177ca1eab24d6eb6aeb8bea5f9e3e202a88",
+      "bytes": 16333
+    },
+    {
+      "path": "crlb/build_sensing_matrices.m",
+      "sha256": "88397f54528bca32ea31cd3e2f9f1719d6454617bb35adc43000971c9151b57a",
+      "bytes": 2497
+    },
+    {
+      "path": "crlb/compute_crlb_from_w.m",
+      "sha256": "cd0dae250df38050b1272ec4273b45658a3e3135838e6c7e21cc09269e095886",
+      "bytes": 460
+    },
+    {
+      "path": "crlb/compute_g_values_from_W.m",
+      "sha256": "2ec652065c46f9718b43684730ad83e4122fd1d6abb7839c68512ad86db4445b",
+      "bytes": 697
+    },
+    {
+      "path": "optimization/apply_power_safeguard.m",
+      "sha256": "62906771468d3b4b1191a116a5f9227d61cf65444c81c8f1fbbd97135437a80e",
+      "bytes": 876
+    },
+    {
+      "path": "optimization/augmented_lagrangian_value_grad.m",
+      "sha256": "59aa22eb25e68382150dc2c7cd8396bdef5181363ab06776f2e299d83bc8976f",
+      "bytes": 1427
+    },
+    {
+      "path": "optimization/compute_constraints_grad.m",
+      "sha256": "2e38b9df0e926f726bd0db90717bbf80c2f7c781712d6cf27b75b65fff153cd2",
+      "bytes": 1989
+    },
+    {
+      "path": "optimization/compute_crlb_objective_grad.m",
+      "sha256": "aee2a9cab1ff665af6829273b25426018ed86cbfed40ac07b4e7a8df16be5061",
+      "bytes": 2642
+    },
+    {
+      "path": "optimization/configure_costar_tr_stage.m",
+      "sha256": "1d65656f5e5f9226e028744ab114c224d503f27def9f7d956a39af61d8e061a4",
+      "bytes": 925
+    },
+    {
+      "path": "optimization/costar_gauss_newton_model.m",
+      "sha256": "4f1fb5d8c0eb02afee22c89a0e9b856ce1dbceac6b68f72e8a41c12f50d8ab12",
+      "bytes": 848
+    },
+    {
+      "path": "optimization/costar_guard_path_cache.m",
+      "sha256": "4623a79573fb6b20a2a8350d410655b095241d6cd26165b1209fd5e5a0b81d36",
+      "bytes": 3812
+    },
+    {
+      "path": "optimization/costar_guard_path_evaluate.m",
+      "sha256": "e24a16818a9cba892a1779dc1a030cdd7d500b4003533cb1819928b1e8ab5a2a",
+      "bytes": 2395
+    },
+    {
+      "path": "optimization/costar_guard_scaled_inward.m",
+      "sha256": "d4f6904245a454992bf06162c510ea52ac1997385615fb4814a99b1e1d6f3d10",
+      "bytes": 5110
+    },
+    {
+      "path": "optimization/costar_join_histories.m",
+      "sha256": "a8950e57f46f96fa1caa5212364ad3b2868e05972cf887cebf7b00f42904504a",
+      "bytes": 1138
+    },
+    {
+      "path": "optimization/costar_lagrangian_norm_bound.m",
+      "sha256": "22da62085ac2e22234a960739cf980c889dc88c4ccb4cc641ad99b736b4122ea",
+      "bytes": 921
+    },
+    {
+      "path": "optimization/costar_paper_geometry.m",
+      "sha256": "638c364788e096156fcab32d4cf66c4a8b7a47a7f9f1bf6443f6d1886320bbcc",
+      "bytes": 5129
+    },
+    {
+      "path": "optimization/costar_paper_inward.m",
+      "sha256": "89c4e26928d61b0103960ef18167e6a60849fbdcec3c02411ad74d91f5e0e41b",
+      "bytes": 3340
+    },
+    {
+      "path": "optimization/costar_paper_options.m",
+      "sha256": "c7c28f78d2002c6e2aa7c34a770ffc356282f502d214525af273061b2645805d",
+      "bytes": 2714
+    },
+    {
+      "path": "optimization/costar_paper_rtr.m",
+      "sha256": "3075078f53d5fab45e8d5c43bc86f022c1d2aeb7bedbacf8387f18ebeb554d47",
+      "bytes": 28520
+    },
+    {
+      "path": "optimization/costar_paper_value.m",
+      "sha256": "0661ae48f4c3f35c00396ea76c05a7915c5141acccd74406e6aa49c34767acea",
+      "bytes": 604
+    },
+    {
+      "path": "optimization/costar_sosp_constraints.m",
+      "sha256": "0aafb2df8d2f0d75d08055777c40ceea709bf03a96de5c34adfe027b4d313c55",
+      "bytes": 918
+    },
+    {
+      "path": "optimization/costar_sosp_meo.m",
+      "sha256": "fd0955bfa5cc90e05fffbacfe9f809c790fd0dfaec016661004f039a203c975c",
+      "bytes": 5034
+    },
+    {
+      "path": "optimization/costar_sosp_stable_decrease.m",
+      "sha256": "0f1c916e4e34833d8c9be432314df1dc7bd8f9a3a2321c8e9adb918b75ba1917",
+      "bytes": 1392
+    },
+    {
+      "path": "optimization/costar_sosp_structured_psd.m",
+      "sha256": "d5acd51762c425d75acc7ab9d80e3b6a59fcadd9f534e80f3aa20b46d0716c1b",
+      "bytes": 11225
+    },
+    {
+      "path": "optimization/estimate_min_curvature_lanczos.m",
+      "sha256": "296e7379d6f14fd810b8ff4e5f66e1c33b3cc7238b60423bb4bd6729438a7406",
+      "bytes": 1612
+    },
+    {
+      "path": "optimization/evaluate_as_rtr_initialization_certificate.m",
+      "sha256": "a50647a8b80b103696019b03f749aad5af4157c6410cdf2166b7bb5defa4e89e",
+      "bytes": 17875
+    },
+    {
+      "path": "optimization/evaluate_beamforming_solution.m",
+      "sha256": "6b6ace404122b2e76828f5ff90d6b2753064513193a7f41eeed3af0030725223",
+      "bytes": 1253
+    },
+    {
+      "path": "optimization/evaluate_lifted_solution.m",
+      "sha256": "279d6ba536c7fe26c8c6491520e22a4c7a45fece541886938464c34f98d7791a",
+      "bytes": 1491
+    },
+    {
+      "path": "optimization/evaluate_normalized_kkt_residual.m",
+      "sha256": "b81bb9f1d1b93531192c54da5d3655feffd392d7f14742c46528feeda0066be9",
+      "bytes": 1926
+    },
+    {
+      "path": "optimization/evaluate_phase2_quotient_second_order_stationarity.m",
+      "sha256": "ede41f56a9296b2a60d1dad9ed87fad7beaef154d993eccc0076dae2f8b16daa",
+      "bytes": 5495
+    },
+    {
+      "path": "optimization/evaluate_second_order_stationarity.m",
+      "sha256": "44882430bdc46500ebaf6cb59e3f5c6f2a4f0d508efe1066890d48c227525afa",
+      "bytes": 5147
+    },
+    {
+      "path": "optimization/evaluate_second_order_stationarity_history.m",
+      "sha256": "1d5784d29c503e9d2f745e3a56f9cd51cd58d0a0022fcea6442bb836d81157a8",
+      "bytes": 1980
+    },
+    {
+      "path": "optimization/exact_lagrangian_hess_vec.m",
+      "sha256": "cfbdeffb7857f3fa72f83ca57d899aeb66f9551e64c4d06a53d6992fe1b05092",
+      "bytes": 4328
+    },
+    {
+      "path": "optimization/hess_vec_fd.m",
+      "sha256": "3377fd933c253faa895be9f5f09d52424d940dcb00d9aa0e9ac05dd466c223a7",
+      "bytes": 1109
+    },
+    {
+      "path": "optimization/initialize_beamformer_identity.m",
+      "sha256": "6f3d19e1a35dc98b0d41093ef529dea7738542f0f735e4cfa3499936a1b54e8f",
+      "bytes": 1350
+    },
+    {
+      "path": "optimization/initialize_shared_stacked_zf.m",
+      "sha256": "1e238d58919f89f50bc0b68f7df1d39385f34feae619eec9b6cbe94794b3a92f",
+      "bytes": 1121
+    },
+    {
+      "path": "optimization/perturb_power_tangent_space.m",
+      "sha256": "b5ea38671f6c2db3d3b3562eb5eb2e190c23bca06f1319ee27bc92379b8c0f1f",
+      "bytes": 1865
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr.m",
+      "sha256": "fea9d5c533e1bba507f17049701c8f3a8274e2320966d389df5882751e5dfb13",
+      "bytes": 12502
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr_core.m",
+      "sha256": "2997ab68c472ee3a156c244fb0822bacacca71c73025b3040ddf7daa0cbcaef8",
+      "bytes": 1431
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr_simplified.m",
+      "sha256": "21d69c45b7c2cb820bdcd0319958af0c5f5bd6a75d31e019edabbf642385119c",
+      "bytes": 26035
+    },
+    {
+      "path": "optimization/polish_costar_sosp.m",
+      "sha256": "fd22b2ceecbfff64c8b007f17d5c62678a514fcfb50458ff05edfc9185a55fad",
+      "bytes": 20722
+    },
+    {
+      "path": "optimization/projected_grad_mapping_norm.m",
+      "sha256": "6d7c5063a64570ec6fe22f9c58c1e13732d2697eef54bfb3da27daed77e1b177",
+      "bytes": 626
+    },
+    {
+      "path": "optimization/project_per_ap_power_matrix.m",
+      "sha256": "d7310e01a63e53700d3eadd53ad699fc8008521acd6507154970b472e4e36a1c",
+      "bytes": 570
+    },
+    {
+      "path": "optimization/recover_beamformers_from_W.m",
+      "sha256": "02ac6754f48dfd6c416746131eb31e622211feb83b430c0ac7aa0dbf70c95ca1",
+      "bytes": 453
+    },
+    {
+      "path": "optimization/restore_sinr_near_reference.m",
+      "sha256": "156e67041690dafbbdfd028465b0c8d8041384d3f17660cd310302367d72a142",
+      "bytes": 4652
+    },
+    {
+      "path": "optimization/sinr_augmented_lagrangian_hess_vec.m",
+      "sha256": "c4854469cfe13b976a0c90d60bb777989e8325112a8b88ea6a9e8c6cb6137afd",
+      "bytes": 4023
+    },
+    {
+      "path": "optimization/sinr_augmented_lagrangian_value_grad.m",
+      "sha256": "eee5446b979ffbe535ed8c67849a64c2442fbbe848179cfeeabf3b8a8e1338b5",
+      "bytes": 2034
+    },
+    {
+      "path": "optimization/solve_active_rtr_phase2.m",
+      "sha256": "6d26676ce6ff636a40cb057fd01ea90fa09b65d254cb5eb00808821c18969f83",
+      "bytes": 1931
+    },
+    {
+      "path": "optimization/solve_alm_first_order.m",
+      "sha256": "aa378a26353828916eec20c6a7bd5b600fd39dbc8fbc8dc3f0e28353f7dc5a85",
+      "bytes": 13433
+    },
+    {
+      "path": "optimization/solve_alm_first_order_projected_power.m",
+      "sha256": "ba15d79bac835f55a38a08a3c984bb78b59432a6e45b8f6a21c6e75629258b66",
+      "bytes": 25214
+    },
+    {
+      "path": "optimization/solve_alm_trust_region.m",
+      "sha256": "f70306b162bd32b659631c6cd8130d945bc4f71ec21216644a52d49144c282b2",
+      "bytes": 39778
+    },
+    {
+      "path": "optimization/solve_costar.m",
+      "sha256": "e4af804cbbada9133e740eda0c6078044b66f00640b9a9f361e7cd5dd58f8164",
+      "bytes": 1542
+    },
+    {
+      "path": "optimization/solve_global_aggregate_zf_as_rtr.m",
+      "sha256": "6f3b5276375c360de99fe2d972807ad448ef83d78c4a54a5e5580efbd46f59f2",
+      "bytes": 2769
+    },
+    {
+      "path": "optimization/solve_low_complexity_theorem_aware_as_rtr.m",
+      "sha256": "df6b5807b850aa264becce110e87eccca65a7fb102632741370a9b832b07e5cb",
+      "bytes": 2474
+    },
+    {
+      "path": "optimization/solve_mrfp_sca.m",
+      "sha256": "c599d4b2da6a9e15b4760a2d92ac7d8df2fd8893ccd903668efb1280de64f428",
+      "bytes": 16381
+    },
+    {
+      "path": "optimization/solve_mrfp_sca_with_costar_initializer.m",
+      "sha256": "667a635c7c953baf442fb9377e10713b38c550208e41f2abfedc41cc64856291",
+      "bytes": 5280
+    },
+    {
+      "path": "optimization/solve_pfo_alm_as_rtr.m",
+      "sha256": "337e08d44f0a5b876fa6b256f10c9f43e2031165f5ed63b5904bb2527ca9137c",
+      "bytes": 1603
+    },
+    {
+      "path": "optimization/solve_random_rank_one_as_rtr.m",
+      "sha256": "11921b84ba67988582c995cbcb4c1252474d0099064d738ea80a1a6657569948",
+      "bytes": 1849
+    },
+    {
+      "path": "optimization/solve_sca_sdr.m",
+      "sha256": "ea1b0025764fb0f78d94435c91b51ccc9b6f8681f84f82eb04f0b7e3202db8ef",
+      "bytes": 814
+    },
+    {
+      "path": "optimization/solve_sca_sdr_rank_continuation.m",
+      "sha256": "40bb2901578c22b6b8877d62c1ef328753868cd158dd6499af10d88eebfbadab",
+      "bytes": 17322
+    },
+    {
+      "path": "optimization/solve_tr_alm.m",
+      "sha256": "4498e0539e0157ea4a27896e7ed032e495b7b6409811cb1d3555238cf365e78f",
+      "bytes": 5293
+    },
+    {
+      "path": "optimization/solve_zf_bf_as_rtr.m",
+      "sha256": "0983757bd2f20681e2938a2002e973e5ee3e12fd886d4f12c8f4fec23ea364f8",
+      "bytes": 1841
+    },
+    {
+      "path": "optimization/trust_region_tcg.m",
+      "sha256": "eea6e5b63272780c246827a90ea01f8992117fad69dc91503fb247a501b93aee",
+      "bytes": 5088
+    },
+    {
+      "path": "scenario/generate_scenario.m",
+      "sha256": "3cfe56d6123e370f6d490adb8083da3cb62a849bb83c9ddc6543e0f71d27db9b",
+      "bytes": 1568
+    },
+    {
+      "path": "sim_twc/common/simtwc_archive_path.m",
+      "sha256": "f49c039781cf9df1975eba3a3f58cecc5fc87501be0bd8f1b8e6a43ebe934fa0",
+      "bytes": 242
+    },
+    {
+      "path": "sim_twc/common/simtwc_canonical_history.m",
+      "sha256": "e35078ddb59aa0716e150e5c710d4e3a19f4575d47a9b40f25bac8a97ade09cb",
+      "bytes": 3928
+    },
+    {
+      "path": "sim_twc/common/simtwc_config.m",
+      "sha256": "1df64915ba65197bca8f9598910b810625eede143421bc6ca49f8a3a3c3a982e",
+      "bytes": 11076
+    },
+    {
+      "path": "sim_twc/common/simtwc_curvature_axis.m",
+      "sha256": "a60d48c20c0b4cf32d09d9e6d518adaf102a28ed28598df0eae1692c6fee35d2",
+      "bytes": 939
+    },
+    {
+      "path": "sim_twc/common/simtwc_export_figure.m",
+      "sha256": "d6249a81a3cfe4112a91b13aab26f576ff85bf9a2d105720f2a44557da4ed447",
+      "bytes": 659
+    },
+    {
+      "path": "sim_twc/common/simtwc_first_hit_time.m",
+      "sha256": "550aba915479a02da17cb4ccced4b92ebdfb15bc88eee0a679a3f9f23dd563aa",
+      "bytes": 445
+    },
+    {
+      "path": "sim_twc/common/simtwc_ieee_style.m",
+      "sha256": "47c7986c36c71c48f7e23cf4e705b03d3b899ee995ca43bf1152e71f98a593c4",
+      "bytes": 1290
+    },
+    {
+      "path": "sim_twc/common/simtwc_initialize_data.m",
+      "sha256": "54b23b5b5babbc5696d8807d215dbd2e36000aba854f2edd4c7e4723f22a9efc",
+      "bytes": 1582
+    },
+    {
+      "path": "sim_twc/common/simtwc_load_data.m",
+      "sha256": "1d57bd6488050d58fea4ae17edd1d72403db8274669385a6a2c151204e7de98d",
+      "bytes": 832
+    },
+    {
+      "path": "sim_twc/common/simtwc_make_problem.m",
+      "sha256": "8d2d3879df64f8adc3d22728518c7640aa7f6114c0e6d4fe80ec78e8182a7fd1",
+      "bytes": 1982
+    },
+    {
+      "path": "sim_twc/common/simtwc_mean_se.m",
+      "sha256": "6087081b02cf5e129f0afd3bfca0f0524d89f61a8e4786a0f80ff85877794591",
+      "bytes": 237
+    },
+    {
+      "path": "sim_twc/common/simtwc_method_registry.m",
+      "sha256": "fd60fe308d161dd8a84fb679f01ab3c7bdfcebe1cefe0e575a653b74447877b2",
+      "bytes": 877
+    },
+    {
+      "path": "sim_twc/common/simtwc_nested_problem.m",
+      "sha256": "cee5121d68b9f2a8d3f46002f53396ff90726b84a989edbc3fb2b6e1b7157944",
+      "bytes": 679
+    },
+    {
+      "path": "sim_twc/common/simtwc_plot_method_curve.m",
+      "sha256": "a7925d7730e016239b36424bde832b6b8cc43fd9765e770d79884279913f8ab0",
+      "bytes": 1147
+    },
+    {
+      "path": "sim_twc/common/simtwc_run_figure.m",
+      "sha256": "19e3d31b25dc67a811390b5d990cb14ddba653565554eadb9af323bec93b0ace",
+      "bytes": 190
+    },
+    {
+      "path": "sim_twc/common/simtwc_run_method.m",
+      "sha256": "27f314f64227d87de5a32394cab7641b69899b8e27da7d6a9e907c50b96cf63c",
+      "bytes": 4141
+    },
+    {
+      "path": "sim_twc/common/simtwc_save_atomic.m",
+      "sha256": "8796f390c23b1f351a492c87db1925c2c36709e5b285d89620dc47f552d421ab",
+      "bytes": 278
+    },
+    {
+      "path": "sim_twc/common/simtwc_setup.m",
+      "sha256": "3d16c5ec6fe1b7ad7c3b4ba7b79f461297ba5b5753044b6b133cda7c5d01f4f5",
+      "bytes": 346
+    },
+    {
+      "path": "sim_twc/common/simtwc_theorem3_audit.m",
+      "sha256": "87f2d116848eb6a6511bd150eee673b86cba7438eb2b1c17c2a54e6b50259e9b",
+      "bytes": 6016
+    },
+    {
+      "path": "sim_twc/common/simtwc_theorem3_options.m",
+      "sha256": "fc55c83e73cc60785b5975697db8c28524cf39b7eccd51f14b949b81a177f638",
+      "bytes": 1431
+    },
+    {
+      "path": "sim_twc/common/simtwc_timed_method.m",
+      "sha256": "84a3fb20a2d8fd1f7361f4bf2833ed14283b9a59281895b639310d9b9bbaabc7",
+      "bytes": 974
+    },
+    {
+      "path": "sim_twc/common/simtwc_try_run.m",
+      "sha256": "1ded2b04d857a98355cb7831c88abe634b72c479c3a66dcb6265e5b8131e723c",
+      "bytes": 841
+    },
+    {
+      "path": "sim_twc/common/simtwc_unified_kkt.m",
+      "sha256": "103de0c30cf9124324bfaa69ddf9447e4004c69af1040e06fc116ce87289a02d",
+      "bytes": 1404
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig01.m",
+      "sha256": "025b348f73f5cf6822dc2ec0794fe85fde1eb939fc41fc983e4c960b1d70fc34",
+      "bytes": 1209
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig02.m",
+      "sha256": "af89014138a314e8db0589fb6b609f03b7caf01d91e435cc6b7807b8b2185453",
+      "bytes": 802
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig03.m",
+      "sha256": "7dd6625b68a8207bb14df92421be877f6200304877b7bebe8dd53913dbd9523a",
+      "bytes": 1355
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig04.m",
+      "sha256": "153d0bb5920b9b82d910d9e9f05e7dd37fa0da66a7d1589faf7d58aae9c7d19d",
+      "bytes": 1867
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig05.m",
+      "sha256": "9bbf3884aa17d9c15656c2a8c750ff5f345dc52a3262fed6f55b0ae02ba59b76",
+      "bytes": 888
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig06.m",
+      "sha256": "bb561e26d500b5bfb4c931823ff33529d45911301c8b7af5f9e1d5c97b6aafc1",
+      "bytes": 2697
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig07.m",
+      "sha256": "f57d0d35ec6bcec4ecdd12ca77cb88ef82666728d3ceeb790a349bac1b20130c",
+      "bytes": 1490
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig08.m",
+      "sha256": "d0332c8a018302d63bca66a366d926598708ae6fffc0f43364c9a489a68a1e54",
+      "bytes": 4851
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig09.m",
+      "sha256": "edf5ea634df3b8ffb373ec3bfa1dbace1ca299d6aa7f4d9a6f83456085060028",
+      "bytes": 2112
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig10.m",
+      "sha256": "d6591e787ec5f512deae268a1368c32c32e379223259e647a8a3e6a2dfe2b71e",
+      "bytes": 1787
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig11.m",
+      "sha256": "0329132ef237e3d3d431d8ad16ca0d21d9bfff5c346a15c42c81b46ae50b8f6f",
+      "bytes": 2930
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig12.m",
+      "sha256": "29bd4e6e64abe28232939f7020b71df0460069512af6e852c510fcc87410e6aa",
+      "bytes": 3512
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig13.m",
+      "sha256": "736888997e6c9ec9e6d64d026c211395cd03cf8d862313846bc5440a973d04de",
+      "bytes": 6509
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig14.m",
+      "sha256": "4336edc184d4f2e3b4e4acaabc15293f977a8dca6198fb3abfaaa9c6456962e1",
+      "bytes": 3003
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig15.m",
+      "sha256": "ab5eca65e9b6c8b448e8c1e25806d39327ecab2a8627953fa06e2c61f7cde4ae",
+      "bytes": 6215
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig16.m",
+      "sha256": "d40032697a6672da9a20df04150df0d76ef584f6a13cc1f6cb7b3ec69859784c",
+      "bytes": 3308
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig17.m",
+      "sha256": "c7e561af7fcd5adfb3c2adc27d06ae78624c683fbf0e499788f83faa5449727b",
+      "bytes": 2131
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig18.m",
+      "sha256": "d8a4245669432fffae82222654621fe498ca07ee11a372c7a09ad14cf691ebd3",
+      "bytes": 19500
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig19.m",
+      "sha256": "9666fde21bd2096a20e7fc4f83d6d147d28a5bd27d48069985c5749db72ec965",
+      "bytes": 1816
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_fig20.m",
+      "sha256": "262115c66ae166cbd6b4d3e52e7418821ff05f5265756d84080d3c7f4b3dd1c9",
+      "bytes": 13150
+    },
+    {
+      "path": "sim_twc/compute/simtwc_compute_figure.m",
+      "sha256": "b49e4847818a58568acff62536ead2551d1a139ca568648944f8a699551ccfb3",
+      "bytes": 1079
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig01.m",
+      "sha256": "a034d3cc13603811cf5cc546cd7508657030a933b9a3b661f6102b11bf864bd1",
+      "bytes": 2629
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig02.m",
+      "sha256": "d0055f6959c51f30181e379f7c208797016c4963008dfe7c2cc8947c44138ea0",
+      "bytes": 1744
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig03.m",
+      "sha256": "b880a323027719fd27e9908efc3679fb731894985a5babae5472f6591e939195",
+      "bytes": 1985
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig04.m",
+      "sha256": "ef2de6060b27d57a4e2c354f46ecac315e4850e628f46ea09fd12b660a861642",
+      "bytes": 2093
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig05.m",
+      "sha256": "31a24ee3982a0d30766a322feb953935a3e386b09d80da093111a2d31c12a8f6",
+      "bytes": 2071
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig06.m",
+      "sha256": "34fab71018e82f16af76063db04f69f93966868cc3153851645097983bc366ed",
+      "bytes": 2444
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig07.m",
+      "sha256": "bb2495790375fc44d841dcae3e675ec79a5746e302eab0b16dfd2f26f9135c1d",
+      "bytes": 2636
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig08.m",
+      "sha256": "cac196a1104c3a79997542244dcda7ee599b50f4962aaff3b3ad6c586b26d53d",
+      "bytes": 2527
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig09.m",
+      "sha256": "2c6a8d3fc9c97d49df015f617867d6f16dc9d0ca30e9ad4f6d8848dcb53ce02c",
+      "bytes": 2003
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig10.m",
+      "sha256": "db7b074492d628ac94965c1f8990e0858450a4d2ffbb33bdb802d9c3edc9e1c5",
+      "bytes": 2827
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig11.m",
+      "sha256": "4c840784f8a9efabb18e726b0d39dc7f98372b7799091d26c4da93e08474f61a",
+      "bytes": 1614
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig12.m",
+      "sha256": "75197d676c87a626146e5c91d8c97628e3746b2fd48c58298aaa2d333626de47",
+      "bytes": 2848
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig13.m",
+      "sha256": "54d6abc592366162e83aacbaf468a21751d1f4d9280f03056e3e89de3d9f341a",
+      "bytes": 3116
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig14.m",
+      "sha256": "90e49547609f246163296044df7761ec85c5c88a3f5a546773dd98494fd8d9d1",
+      "bytes": 4252
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig15.m",
+      "sha256": "95bab3e225385889d435a570529ed3b82a11106db79cf68a9fea250c1718c87a",
+      "bytes": 4205
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig16.m",
+      "sha256": "a4feee5e2be77ec59cfb76df7ba6677fd3f132949086a95d7fce205bcd93c20d",
+      "bytes": 2312
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig17.m",
+      "sha256": "0444a937fe3359d485b630b7da0775115753a1cb7f8436155a5a15cb90949a17",
+      "bytes": 3225
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig18.m",
+      "sha256": "6fd6156b9743823fb79bd60cb03eac8640d92e76fa4d580895ea141aabadc587",
+      "bytes": 6733
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig19.m",
+      "sha256": "96f6cb1dc25599044b55d4ccd94d67a72b48b96bce2f22176e54287a504cb3b1",
+      "bytes": 2530
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_fig20.m",
+      "sha256": "a44c210e7f13452ea8345d055e8a0164bd54a68fa52f662aea9039f5118dc79f",
+      "bytes": 3071
+    },
+    {
+      "path": "sim_twc/plot/simtwc_plot_figure.m",
+      "sha256": "3ef5f51d57a8ca6833222f22ae73b764978d612995592690c7ca0cb5143803d3",
+      "bytes": 932
+    },
+    {
+      "path": "tests/diagnose_fig08_entry.m",
+      "sha256": "618b89e50e7550e60b85bab0693971f628a85fd4fe71fc6350e351bafc514a53",
+      "bytes": 4259
+    },
+    {
+      "path": "tests/test_all_figures_smoke.m",
+      "sha256": "19cb00ac72a83e8f8e4fe6c75fba22626bd277c7c63ad197e8500eb431a8e4c3",
+      "bytes": 658
+    },
+    {
+      "path": "tests/test_costar_default.m",
+      "sha256": "6f55264e7b7996a8916cede6a5b4b3e80512f4e374a175f41c65324a8d647733",
+      "bytes": 1284
+    },
+    {
+      "path": "tests/test_costar_regimes.m",
+      "sha256": "8dac1942269d670f2d4c03120cd2e8c1d4af812ddd4184ac0ba14a4b70584f5c",
+      "bytes": 1268
+    },
+    {
+      "path": "tests/test_curvature_oracle.m",
+      "sha256": "a4b538d3e18e10b59d28130d019adf0cb415118340b1d8ef9ea82757a5c414e3",
+      "bytes": 1590
+    },
+    {
+      "path": "tests/test_guard_path_cache.m",
+      "sha256": "9c8559f55a96b1ebfa8dd062a36a167e0626997ccab6731b24ffd699638e09ab",
+      "bytes": 2527
+    },
+    {
+      "path": "tests/test_guard_scaled_inward.m",
+      "sha256": "af56ac001aabc6da7a77c72071528b2f4ab93e501c37c99386f8d131b0dd3378",
+      "bytes": 2245
+    },
+    {
+      "path": "tests/test_paper_alignment.m",
+      "sha256": "010fa50b782afeb1bf2d9fc2ee3d3c112d98f16175533653255ab7aa484e76ef",
+      "bytes": 2793
+    },
+    {
+      "path": "tests/test_paper_geometry.m",
+      "sha256": "a71668f902b159ebaed38e68617cef5c4152ce8c3068b052e2aea8eac82cfa79",
+      "bytes": 2343
+    },
+    {
+      "path": "tests/test_paper_spsc.m",
+      "sha256": "4fee137854705d2f1d9a3ab236345add6cb94e7ed63b0fc29922aede9f0b6726",
+      "bytes": 3111
+    },
+    {
+      "path": "tests/test_paper_stopping.m",
+      "sha256": "f0ed4fc092f9425a9e4ffd7f7de74925ad8df74473647ff16aae63fc7e982fcf",
+      "bytes": 3802
+    },
+    {
+      "path": "tests/test_safeguard_endpoint_probe.m",
+      "sha256": "4fa8fce2a311a100d649afba21126628467b971771d7121680b75ab27b4a8b23",
+      "bytes": 1993
+    },
+    {
+      "path": "tests/test_shared_entry.m",
+      "sha256": "9319c14af6caf61e67ff305db4688142ded06be491daf2f6754784281623eb0a",
+      "bytes": 2931
+    },
+    {
+      "path": "tests/test_theorem3_figure.m",
+      "sha256": "17981ed6cb4bfa8cd822efd50f7c30085f8f234211328a2fa5a5bba0dde9ec1a",
+      "bytes": 2026
+    },
+    {
+      "path": "tests/test_theorem3_plot.m",
+      "sha256": "7b756502e5769f05602f22f4d4b4d483acc0b6a1e840c281ac2bea753d3b512c",
+      "bytes": 1599
+    },
+    {
+      "path": "tests/test_theorem3_terminal_random.m",
+      "sha256": "926b5a4849be009160806e8b4e3ae9103f9c4973246d742c2577e649444b6385",
+      "bytes": 1650
+    },
+    {
+      "path": "utils/add_project_paths.m",
+      "sha256": "079d8994898f0eb83193ebe6128555db023b44b200201e1e9f953b9e1c63525d",
+      "bytes": 182
+    },
+    {
+      "path": "utils/block_indices.m",
+      "sha256": "4f294cc7f7158ae3667344f58f9a8fdc78afc4235092375a007dfd9a381078ba",
+      "bytes": 153
+    },
+    {
+      "path": "utils/complex_matrix_to_real_vector.m",
+      "sha256": "4929206b8a73042a4fee706a1db2d736a824b93bb8ff2fc9c877e586bf7c2c39",
+      "bytes": 298
+    },
+    {
+      "path": "utils/compute_target_geometry_for_ula.m",
+      "sha256": "0b8518fb108336447ce8d15f4a2de79146fd589575b7d40058d25db36f926a3c",
+      "bytes": 1830
+    },
+    {
+      "path": "utils/db2pow.m",
+      "sha256": "8f41967e7d9b659d8a8b888ba0a39d687ed90d033e5d8336486bfc810be1676a",
+      "bytes": 91
+    },
+    {
+      "path": "utils/dbm2w.m",
+      "sha256": "6ae67be1d520979757d157a2150ce9ae4f64905b595742e36fad02b6f68d9c3b",
+      "bytes": 89
+    },
+    {
+      "path": "utils/describe_costar_initializer.m",
+      "sha256": "6a1d4d3d350c4f2edb180cc2306811b6909bb29d5eca5170937ed13f0cac6174",
+      "bytes": 4002
+    },
+    {
+      "path": "utils/devectorize_wvec.m",
+      "sha256": "9fe7ac961dc6b7015668a6fac943e2176b8626c38840ac1de226c3c930f31014",
+      "bytes": 356
+    },
+    {
+      "path": "utils/hermitianize.m",
+      "sha256": "1ed4d74ee3ce26644cfd008d275f4ba9a29e47eebeaff34ec92f976dd31518f6",
+      "bytes": 109
+    },
+    {
+      "path": "utils/matrix_to_wcell.m",
+      "sha256": "a5a7b9b2d0474a557a5322eceb79dca3ef751647cb3f2ccc9c52961ad9aaf176",
+      "bytes": 280
+    },
+    {
+      "path": "utils/pow2db.m",
+      "sha256": "05641d55e0006e84cb3e7f560c108e29dff98e7d510e0eaaf84fec94e9c93a30",
+      "bytes": 112
+    },
+    {
+      "path": "utils/real_vector_to_complex_matrix.m",
+      "sha256": "4ec9cd22acb5c41481e2e55145a3a96a9b13e6a9fc7d6fd55b1f19dd1a85235d",
+      "bytes": 466
+    },
+    {
+      "path": "utils/save_mat_checkpoint_atomic.m",
+      "sha256": "4d62c97b1889653147eb7946f108e01ef4472e3c6e12746bd792b7fa048efc2d",
+      "bytes": 2222
+    },
+    {
+      "path": "utils/vectorize_wcell.m",
+      "sha256": "a94fd8e6d6a8780765ddedd8506d413ef4fa7cf6598aee586fa277b7883c2e64",
+      "bytes": 448
+    },
+    {
+      "path": "utils/vectorize_wcell_to_matrix.m",
+      "sha256": "5d2f5c01290e4cdde6429c0086fd06860721b4e851cc9929419b2041d3bc8e35",
+      "bytes": 304
+    },
+    {
+      "path": "utils/w2dbm.m",
+      "sha256": "0a5f24a16bdf04fdee34ab7d5c34ed94cf4eeb1d8cc764f387d2666909990686",
+      "bytes": 108
+    }
+  ]
+}

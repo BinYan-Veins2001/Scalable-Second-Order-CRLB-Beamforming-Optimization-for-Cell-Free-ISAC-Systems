@@ -1,0 +1,385 @@
+{
+  "version": "v2026.10.20",
+  "release_date": "2026-10-20",
+  "numerical_snapshot_date": "2026-10-19",
+  "assets": [
+    {
+      "name": "COSTAR_results_20261020.zip",
+      "role": "current_results",
+      "bytes": 357137514,
+      "sha256": "b682df9153c53ce0755fa98bfc3873738254f1a739fcf09e18238314a99249f3",
+      "url": "https://github.com/BinYan-Veins2001/Scalable-Second-Order-CRLB-Beamforming-Optimization-for-Cell-Free-ISAC-Systems/releases/download/v2026.10.20/COSTAR_results_20261020.zip"
+    },
+    {
+      "name": "COSTAR_fig01_full_archive_20260907.zip",
+      "role": "legacy_fig01_full",
+      "bytes": 497320197,
+      "sha256": "3e8f8e6e50ff8e2004aacde3d020519c2b8a1c7760a4e81b5f91227706294858",
+      "url": "https://github.com/BinYan-Veins2001/Scalable-Second-Order-CRLB-Beamforming-Optimization-for-Cell-Free-ISAC-Systems/releases/download/v2026.10.20/COSTAR_fig01_full_archive_20260907.zip"
+    },
+    {
+      "name": "COSTAR_Chinese_Companion.pdf",
+      "role": "chinese_companion",
+      "bytes": 1382549,
+      "sha256": "550c2956962b2f3fb92dc18c9e1b56d744069a3583ccf482b880def31c217e5c",
+      "url": "https://github.com/BinYan-Veins2001/Scalable-Second-Order-CRLB-Beamforming-Optimization-for-Cell-Free-ISAC-Systems/releases/download/v2026.10.20/COSTAR_Chinese_Companion.pdf"
+    }
+  ],
+  "mat_files_in_current_asset": 207,
+  "unmodified_numerical_source_files": 88,
+  "figure1_role": "Inherited dimension sweep; compact plot arrays in current_results, complete raw archive optional.",
+  "numerical_source_files": [
+    {
+      "path": "optimization/apply_power_safeguard.m",
+      "sha256": "62906771468d3b4b1191a116a5f9227d61cf65444c81c8f1fbbd97135437a80e"
+    },
+    {
+      "path": "optimization/augmented_lagrangian_value_grad.m",
+      "sha256": "59aa22eb25e68382150dc2c7cd8396bdef5181363ab06776f2e299d83bc8976f"
+    },
+    {
+      "path": "optimization/compute_constraints_grad.m",
+      "sha256": "2e38b9df0e926f726bd0db90717bbf80c2f7c781712d6cf27b75b65fff153cd2"
+    },
+    {
+      "path": "optimization/compute_crlb_objective_grad.m",
+      "sha256": "aee2a9cab1ff665af6829273b25426018ed86cbfed40ac07b4e7a8df16be5061"
+    },
+    {
+      "path": "optimization/configure_costar_tr_stage.m",
+      "sha256": "1d65656f5e5f9226e028744ab114c224d503f27def9f7d956a39af61d8e061a4"
+    },
+    {
+      "path": "optimization/costar_gauss_newton_model.m",
+      "sha256": "4f1fb5d8c0eb02afee22c89a0e9b856ce1dbceac6b68f72e8a41c12f50d8ab12"
+    },
+    {
+      "path": "optimization/costar_guard_path_cache.m",
+      "sha256": "4623a79573fb6b20a2a8350d410655b095241d6cd26165b1209fd5e5a0b81d36"
+    },
+    {
+      "path": "optimization/costar_guard_path_evaluate.m",
+      "sha256": "e24a16818a9cba892a1779dc1a030cdd7d500b4003533cb1819928b1e8ab5a2a"
+    },
+    {
+      "path": "optimization/costar_guard_scaled_inward.m",
+      "sha256": "d4f6904245a454992bf06162c510ea52ac1997385615fb4814a99b1e1d6f3d10"
+    },
+    {
+      "path": "optimization/costar_join_histories.m",
+      "sha256": "a8950e57f46f96fa1caa5212364ad3b2868e05972cf887cebf7b00f42904504a"
+    },
+    {
+      "path": "optimization/costar_lagrangian_norm_bound.m",
+      "sha256": "22da62085ac2e22234a960739cf980c889dc88c4ccb4cc641ad99b736b4122ea"
+    },
+    {
+      "path": "optimization/costar_paper_geometry.m",
+      "sha256": "638c364788e096156fcab32d4cf66c4a8b7a47a7f9f1bf6443f6d1886320bbcc"
+    },
+    {
+      "path": "optimization/costar_paper_inward.m",
+      "sha256": "89c4e26928d61b0103960ef18167e6a60849fbdcec3c02411ad74d91f5e0e41b"
+    },
+    {
+      "path": "optimization/costar_paper_options.m",
+      "sha256": "c7c28f78d2002c6e2aa7c34a770ffc356282f502d214525af273061b2645805d"
+    },
+    {
+      "path": "optimization/costar_paper_rtr.m",
+      "sha256": "ed17fe84ee984bf4638c2c15d74c98baddbc1f6c40cb1f9ca72aaf91a1f88a34"
+    },
+    {
+      "path": "optimization/costar_paper_value.m",
+      "sha256": "0661ae48f4c3f35c00396ea76c05a7915c5141acccd74406e6aa49c34767acea"
+    },
+    {
+      "path": "optimization/costar_sosp_constraints.m",
+      "sha256": "0aafb2df8d2f0d75d08055777c40ceea709bf03a96de5c34adfe027b4d313c55"
+    },
+    {
+      "path": "optimization/costar_sosp_meo.m",
+      "sha256": "fd0955bfa5cc90e05fffbacfe9f809c790fd0dfaec016661004f039a203c975c"
+    },
+    {
+      "path": "optimization/costar_sosp_stable_decrease.m",
+      "sha256": "0f1c916e4e34833d8c9be432314df1dc7bd8f9a3a2321c8e9adb918b75ba1917"
+    },
+    {
+      "path": "optimization/costar_sosp_structured_psd.m",
+      "sha256": "d5acd51762c425d75acc7ab9d80e3b6a59fcadd9f534e80f3aa20b46d0716c1b"
+    },
+    {
+      "path": "optimization/estimate_min_curvature_lanczos.m",
+      "sha256": "296e7379d6f14fd810b8ff4e5f66e1c33b3cc7238b60423bb4bd6729438a7406"
+    },
+    {
+      "path": "optimization/evaluate_as_rtr_initialization_certificate.m",
+      "sha256": "a50647a8b80b103696019b03f749aad5af4157c6410cdf2166b7bb5defa4e89e"
+    },
+    {
+      "path": "optimization/evaluate_beamforming_solution.m",
+      "sha256": "6b6ace404122b2e76828f5ff90d6b2753064513193a7f41eeed3af0030725223"
+    },
+    {
+      "path": "optimization/evaluate_lifted_solution.m",
+      "sha256": "279d6ba536c7fe26c8c6491520e22a4c7a45fece541886938464c34f98d7791a"
+    },
+    {
+      "path": "optimization/evaluate_normalized_kkt_residual.m",
+      "sha256": "b81bb9f1d1b93531192c54da5d3655feffd392d7f14742c46528feeda0066be9"
+    },
+    {
+      "path": "optimization/evaluate_phase2_quotient_second_order_stationarity.m",
+      "sha256": "ede41f56a9296b2a60d1dad9ed87fad7beaef154d993eccc0076dae2f8b16daa"
+    },
+    {
+      "path": "optimization/evaluate_second_order_stationarity.m",
+      "sha256": "44882430bdc46500ebaf6cb59e3f5c6f2a4f0d508efe1066890d48c227525afa"
+    },
+    {
+      "path": "optimization/evaluate_second_order_stationarity_history.m",
+      "sha256": "1d5784d29c503e9d2f745e3a56f9cd51cd58d0a0022fcea6442bb836d81157a8"
+    },
+    {
+      "path": "optimization/exact_lagrangian_hess_vec.m",
+      "sha256": "cfbdeffb7857f3fa72f83ca57d899aeb66f9551e64c4d06a53d6992fe1b05092"
+    },
+    {
+      "path": "optimization/hess_vec_fd.m",
+      "sha256": "3377fd933c253faa895be9f5f09d52424d940dcb00d9aa0e9ac05dd466c223a7"
+    },
+    {
+      "path": "optimization/initialize_beamformer_identity.m",
+      "sha256": "6f3d19e1a35dc98b0d41093ef529dea7738542f0f735e4cfa3499936a1b54e8f"
+    },
+    {
+      "path": "optimization/initialize_shared_stacked_zf.m",
+      "sha256": "1e238d58919f89f50bc0b68f7df1d39385f34feae619eec9b6cbe94794b3a92f"
+    },
+    {
+      "path": "optimization/perturb_power_tangent_space.m",
+      "sha256": "b5ea38671f6c2db3d3b3562eb5eb2e190c23bca06f1319ee27bc92379b8c0f1f"
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr.m",
+      "sha256": "fea9d5c533e1bba507f17049701c8f3a8274e2320966d389df5882751e5dfb13"
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr_core.m",
+      "sha256": "2997ab68c472ee3a156c244fb0822bacacca71c73025b3040ddf7daa0cbcaef8"
+    },
+    {
+      "path": "optimization/polish_beamformer_active_rtr_simplified.m",
+      "sha256": "21d69c45b7c2cb820bdcd0319958af0c5f5bd6a75d31e019edabbf642385119c"
+    },
+    {
+      "path": "optimization/polish_costar_sosp.m",
+      "sha256": "fd22b2ceecbfff64c8b007f17d5c62678a514fcfb50458ff05edfc9185a55fad"
+    },
+    {
+      "path": "optimization/project_per_ap_power_matrix.m",
+      "sha256": "d7310e01a63e53700d3eadd53ad699fc8008521acd6507154970b472e4e36a1c"
+    },
+    {
+      "path": "optimization/projected_grad_mapping_norm.m",
+      "sha256": "6d7c5063a64570ec6fe22f9c58c1e13732d2697eef54bfb3da27daed77e1b177"
+    },
+    {
+      "path": "optimization/recover_beamformers_from_W.m",
+      "sha256": "02ac6754f48dfd6c416746131eb31e622211feb83b430c0ac7aa0dbf70c95ca1"
+    },
+    {
+      "path": "optimization/restore_sinr_near_reference.m",
+      "sha256": "156e67041690dafbbdfd028465b0c8d8041384d3f17660cd310302367d72a142"
+    },
+    {
+      "path": "optimization/sinr_augmented_lagrangian_hess_vec.m",
+      "sha256": "c4854469cfe13b976a0c90d60bb777989e8325112a8b88ea6a9e8c6cb6137afd"
+    },
+    {
+      "path": "optimization/sinr_augmented_lagrangian_value_grad.m",
+      "sha256": "eee5446b979ffbe535ed8c67849a64c2442fbbe848179cfeeabf3b8a8e1338b5"
+    },
+    {
+      "path": "optimization/solve_active_rtr_phase2.m",
+      "sha256": "6d26676ce6ff636a40cb057fd01ea90fa09b65d254cb5eb00808821c18969f83"
+    },
+    {
+      "path": "optimization/solve_alm_first_order.m",
+      "sha256": "aa378a26353828916eec20c6a7bd5b600fd39dbc8fbc8dc3f0e28353f7dc5a85"
+    },
+    {
+      "path": "optimization/solve_alm_first_order_projected_power.m",
+      "sha256": "ba15d79bac835f55a38a08a3c984bb78b59432a6e45b8f6a21c6e75629258b66"
+    },
+    {
+      "path": "optimization/solve_alm_trust_region.m",
+      "sha256": "f70306b162bd32b659631c6cd8130d945bc4f71ec21216644a52d49144c282b2"
+    },
+    {
+      "path": "optimization/solve_costar.m",
+      "sha256": "e4af804cbbada9133e740eda0c6078044b66f00640b9a9f361e7cd5dd58f8164"
+    },
+    {
+      "path": "optimization/solve_global_aggregate_zf_as_rtr.m",
+      "sha256": "6f3b5276375c360de99fe2d972807ad448ef83d78c4a54a5e5580efbd46f59f2"
+    },
+    {
+      "path": "optimization/solve_low_complexity_theorem_aware_as_rtr.m",
+      "sha256": "df6b5807b850aa264becce110e87eccca65a7fb102632741370a9b832b07e5cb"
+    },
+    {
+      "path": "optimization/solve_mrfp_sca.m",
+      "sha256": "c599d4b2da6a9e15b4760a2d92ac7d8df2fd8893ccd903668efb1280de64f428"
+    },
+    {
+      "path": "optimization/solve_mrfp_sca_with_costar_initializer.m",
+      "sha256": "667a635c7c953baf442fb9377e10713b38c550208e41f2abfedc41cc64856291"
+    },
+    {
+      "path": "optimization/solve_pfo_alm_as_rtr.m",
+      "sha256": "337e08d44f0a5b876fa6b256f10c9f43e2031165f5ed63b5904bb2527ca9137c"
+    },
+    {
+      "path": "optimization/solve_random_rank_one_as_rtr.m",
+      "sha256": "11921b84ba67988582c995cbcb4c1252474d0099064d738ea80a1a6657569948"
+    },
+    {
+      "path": "optimization/solve_sca_sdr.m",
+      "sha256": "ea1b0025764fb0f78d94435c91b51ccc9b6f8681f84f82eb04f0b7e3202db8ef"
+    },
+    {
+      "path": "optimization/solve_sca_sdr_rank_continuation.m",
+      "sha256": "40bb2901578c22b6b8877d62c1ef328753868cd158dd6499af10d88eebfbadab"
+    },
+    {
+      "path": "optimization/solve_tr_alm.m",
+      "sha256": "4498e0539e0157ea4a27896e7ed032e495b7b6409811cb1d3555238cf365e78f"
+    },
+    {
+      "path": "optimization/solve_zf_bf_as_rtr.m",
+      "sha256": "0983757bd2f20681e2938a2002e973e5ee3e12fd886d4f12c8f4fec23ea364f8"
+    },
+    {
+      "path": "optimization/trust_region_tcg.m",
+      "sha256": "eea6e5b63272780c246827a90ea01f8992117fad69dc91503fb247a501b93aee"
+    },
+    {
+      "path": "config/default_config.m",
+      "sha256": "ec0a79d923be98f51dbb570c43c416d9e4c853f91ae353ad65682b04b8e1053c"
+    },
+    {
+      "path": "baselines/build_global_aggregate_zf_initializer.m",
+      "sha256": "d0d663740c7934ece49f676a0af858f5a4b041420c1eaf0de39f015472f20bfa"
+    },
+    {
+      "path": "baselines/build_low_complexity_theorem_aware_initializer.m",
+      "sha256": "635b6bbe7fbf319ba93dbde1fa021b493069358b27c331ed1aabc3bd77285f99"
+    },
+    {
+      "path": "baselines/build_sensing_oriented_beamformer.m",
+      "sha256": "43bcd9102082bb6c4a324552fb3f5d8c16971ed8cc76122c2e058941f5d0a73d"
+    },
+    {
+      "path": "baselines/build_shared_theorem_aware_zf_initializer.m",
+      "sha256": "54931a484861ed6b6fbf326d851d773c7108b8055e9aba36aa1bdebba7f70d5e"
+    },
+    {
+      "path": "baselines/build_zf_beamformer.m",
+      "sha256": "4cebfa280c0b29479f4d3923cb06289e248a4ae1a89d06b6c5bd0fb9bbdf9187"
+    },
+    {
+      "path": "baselines/optimize_fixed_direction_power_allocation.m",
+      "sha256": "00decd79cdf7732b9506b1e50f591ff72d0c20491f65667be3525b269833983e"
+    },
+    {
+      "path": "channels/generate_channels.m",
+      "sha256": "c085db0654a917f562ed2a6ad3a3cf13a07fdc0e4cafbbafbee188330253841d"
+    },
+    {
+      "path": "channels/steering_ula.m",
+      "sha256": "6bfee5377b7f58848c6471f06fde7dae44b89a9a8af944128017c6168f082c72"
+    },
+    {
+      "path": "scenario/generate_scenario.m",
+      "sha256": "3cfe56d6123e370f6d490adb8083da3cb62a849bb83c9ddc6543e0f71d27db9b"
+    },
+    {
+      "path": "crlb/build_sensing_matrices.m",
+      "sha256": "88397f54528bca32ea31cd3e2f9f1719d6454617bb35adc43000971c9151b57a"
+    },
+    {
+      "path": "crlb/compute_crlb_from_w.m",
+      "sha256": "cd0dae250df38050b1272ec4273b45658a3e3135838e6c7e21cc09269e095886"
+    },
+    {
+      "path": "crlb/compute_g_values_from_W.m",
+      "sha256": "2ec652065c46f9718b43684730ad83e4122fd1d6abb7839c68512ad86db4445b"
+    },
+    {
+      "path": "utils/add_project_paths.m",
+      "sha256": "079d8994898f0eb83193ebe6128555db023b44b200201e1e9f953b9e1c63525d"
+    },
+    {
+      "path": "utils/block_indices.m",
+      "sha256": "4f294cc7f7158ae3667344f58f9a8fdc78afc4235092375a007dfd9a381078ba"
+    },
+    {
+      "path": "utils/complex_matrix_to_real_vector.m",
+      "sha256": "4929206b8a73042a4fee706a1db2d736a824b93bb8ff2fc9c877e586bf7c2c39"
+    },
+    {
+      "path": "utils/compute_target_geometry_for_ula.m",
+      "sha256": "0b8518fb108336447ce8d15f4a2de79146fd589575b7d40058d25db36f926a3c"
+    },
+    {
+      "path": "utils/db2pow.m",
+      "sha256": "8f41967e7d9b659d8a8b888ba0a39d687ed90d033e5d8336486bfc810be1676a"
+    },
+    {
+      "path": "utils/dbm2w.m",
+      "sha256": "6ae67be1d520979757d157a2150ce9ae4f64905b595742e36fad02b6f68d9c3b"
+    },
+    {
+      "path": "utils/describe_costar_initializer.m",
+      "sha256": "6a1d4d3d350c4f2edb180cc2306811b6909bb29d5eca5170937ed13f0cac6174"
+    },
+    {
+      "path": "utils/devectorize_wvec.m",
+      "sha256": "9fe7ac961dc6b7015668a6fac943e2176b8626c38840ac1de226c3c930f31014"
+    },
+    {
+      "path": "utils/hermitianize.m",
+      "sha256": "1ed4d74ee3ce26644cfd008d275f4ba9a29e47eebeaff34ec92f976dd31518f6"
+    },
+    {
+      "path": "utils/matrix_to_wcell.m",
+      "sha256": "a5a7b9b2d0474a557a5322eceb79dca3ef751647cb3f2ccc9c52961ad9aaf176"
+    },
+    {
+      "path": "utils/pow2db.m",
+      "sha256": "05641d55e0006e84cb3e7f560c108e29dff98e7d510e0eaaf84fec94e9c93a30"
+    },
+    {
+      "path": "utils/real_vector_to_complex_matrix.m",
+      "sha256": "4ec9cd22acb5c41481e2e55145a3a96a9b13e6a9fc7d6fd55b1f19dd1a85235d"
+    },
+    {
+      "path": "utils/save_mat_checkpoint_atomic.m",
+      "sha256": "4d62c97b1889653147eb7946f108e01ef4472e3c6e12746bd792b7fa048efc2d"
+    },
+    {
+      "path": "utils/vectorize_wcell.m",
+      "sha256": "a94fd8e6d6a8780765ddedd8506d413ef4fa7cf6598aee586fa277b7883c2e64"
+    },
+    {
+      "path": "utils/vectorize_wcell_to_matrix.m",
+      "sha256": "5d2f5c01290e4cdde6429c0086fd06860721b4e851cc9929419b2041d3bc8e35"
+    },
+    {
+      "path": "utils/w2dbm.m",
+      "sha256": "0a5f24a16bdf04fdee34ab7d5c34ed94cf4eeb1d8cc764f387d2666909990686"
+    }
+  ]
+}

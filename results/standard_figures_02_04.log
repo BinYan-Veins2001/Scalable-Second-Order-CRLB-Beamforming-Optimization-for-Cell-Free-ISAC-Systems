@@ -1,0 +1,19 @@
+C:\Users\Veins\Documents\2026.07 CRLB二阶优化\COSTAR_PaperFigures_20261019\optimization\solve_costar.m
+C:\Program Files\MATLAB\R2022b\toolbox\cvx\commands\cvx_begin.m
+[Paper figure 2] COSTAR convergence
+[Paper case] default, seed 2026, costar
+[Paper Fig2] Horizontal audit 10/85
+[Paper Fig2] Horizontal audit 20/85
+[Paper Fig2] Horizontal audit 30/85
+[Paper Fig2] Horizontal audit 40/85
+[Paper Fig2] Horizontal audit 50/85
+[Paper Fig2] Horizontal audit 60/85
+[Paper Fig2] Horizontal audit 70/85
+[Paper Fig2] Horizontal audit 80/85
+[Paper Fig2] Horizontal audit 85/85
+{错误使用 struct2table
+输入结构体为标量，但其字段的行数不同。如果您想创建一个包含一行的表，请将 'AsArray' 设置为 true。
+
+出错 main_run_paper_figures (第 39 行)
+    writetable(struct2table(report),fullfile(folder,'paper_run_report.csv'));
+} 

@@ -1,0 +1,18 @@
+{
+  "checked_m_files": 60,
+  "changed": [
+    "optimization/costar_paper_rtr.m",
+    "config/default_config.m"
+  ],
+  "numerical_algorithm_changed": false,
+  "differences": "Solver documentation updated to current paper; configuration header and provenance phase2_version updated. No numerical algorithm change.",
+  "paper_sha256": {
+    "sections/03_costar.tex": "4fb44a301f1e2449659f77ff7fabe6426f04258ca119db986078c35b176b1d68",
+    "sections/04_analysis_final.tex": "84ac84f9995c198e00c1354d7b734876e1521d59b7d9659bc476d65c2b6acc16"
+  },
+  "frozen_inputs_sha256": {
+    "default_seed2026.mat": "059d516ea571a6d81133a1014a1a2e3a913d6eda08a27acc553af4ac90df56ec",
+    "default_seed2027.mat": "1ecdef7318ba55afa32cbd1a68f4af593e9facf3e86a5fc2002b645a54322cf4",
+    "default_seed2028.mat": "db39669d9ea03b7c7167232d692523c4c85d28265cfc9dca5b4fec857f05cca7"
+  }
+}

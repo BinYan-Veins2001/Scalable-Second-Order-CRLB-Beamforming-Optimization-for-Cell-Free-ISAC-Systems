@@ -1,0 +1,23 @@
+                            licq: 1
+            positive_multipliers: 0
+       minimum_active_multiplier: 0
+           horizontal_lambda_min: -8.1565e-16
+    horizontal_positive_definite: 0
+       horizontal_spectral_scale: 1
+                   face_residual: 2.5044e-12
+                tangent_residual: 4.9414e-15
+                     active_rank: 22
+            horizontal_dimension: 994
+
+[Paper Fig5] seed2026 sample1 r0=6.84e-06 r1=4.17e-12 used=1
+[Paper Fig5] seed2026 sample2 r0=8.04e-06 r1=5.74e-12 used=1
+[Paper Fig5] seed2026 sample3 r0=9.44e-06 r1=1.05e-11 used=1
+[Paper Fig5] seed2026 sample4 r0=1.11e-05 r1=1.58e-11 used=1
+[Paper Fig5] seed2026 sample5 r0=1.3e-05 r1=1.71e-11 used=1
+[Paper Fig5] seed2026 sample6 r0=1.53e-05 r1=2.7e-11 used=1
+[Paper Fig5] seed2026 sample7 r0=1.8e-05 r1=3.4e-11 used=1
+[Paper Fig5] seed2026 sample8 r0=2.11e-05 r1=4.07e-11 used=1
+[Paper Fig5] seed2026 sample9 r0=2.48e-05 r1=6.57e-11 used=1
+[Paper Fig5] seed2026 sample10 r0=2.91e-05 r1=1.02e-10 used=1
+[Paper Fig5] seed2026 sample11 r0=3.42e-05 r1=1.39e-10 used=1
+[Paper Fig5] Controlled local order 2.0970, CV 0.128, 11 qualified samples

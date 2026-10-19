@@ -1,0 +1,93 @@
+[Paper Fig4] Default, seed 2026
+  KKT=9.32e-09 eigT=-5.63e-10 q_stop=0.000932 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2027
+[Paper case] default, seed 2027, costar
+  KKT=2.45e-08 eigT=-2.18e-09 q_stop=0.00245 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2028
+[Paper case] default, seed 2028, costar
+  KKT=5.01e-07 eigT=-2.09e-12 q_stop=0.0501 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2029
+[Paper case] default, seed 2029, costar
+  KKT=4.93e-08 eigT=-2.9e-09 q_stop=0.00493 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2030
+[Paper case] default, seed 2030, costar
+  KKT=6.37e-06 eigT=-3.46e-10 q_stop=0.637 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2031
+[Paper case] default, seed 2031, costar
+  KKT=9.66e-06 eigT=-1.38e-06 q_stop=0.966 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2032
+[Paper case] default, seed 2032, costar
+  KKT=8.13e-08 eigT=-2.19e-09 q_stop=0.00813 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2033
+[Paper case] default, seed 2033, costar
+  KKT=1.11e-06 eigT=-4.88e-12 q_stop=0.111 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2034
+[Paper case] default, seed 2034, costar
+  KKT=1.55e-06 eigT=-1.64e-11 q_stop=0.155 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Default, seed 2035
+[Paper case] default, seed 2035, costar
+  KKT=8.11e-06 eigT=-8.71e-07 q_stop=0.811 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2026
+[Paper case] high_sinr, seed 2026, costar
+  KKT=9.03e-06 eigT=-1.82e-10 q_stop=0.903 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2027
+[Paper case] high_sinr, seed 2027, costar
+  KKT=6.28e-07 eigT=-1.43e-12 q_stop=0.0628 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2028
+[Paper case] high_sinr, seed 2028, costar
+  KKT=2.41e-06 eigT=-1.11e-11 q_stop=0.241 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2029
+[Paper case] high_sinr, seed 2029, costar
+  KKT=7.99e-06 eigT=-1e-10 q_stop=0.799 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2030
+[Paper case] high_sinr, seed 2030, costar
+  KKT=3.98e-07 eigT=-7.34e-13 q_stop=0.0398 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2031
+[Paper case] high_sinr, seed 2031, costar
+  KKT=8.68e-07 eigT=-1.9e-12 q_stop=0.0868 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2032
+[Paper case] high_sinr, seed 2032, costar
+  KKT=3.88e-06 eigT=-2.52e-07 q_stop=0.388 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2033
+[Paper case] high_sinr, seed 2033, costar
+  KKT=5.22e-06 eigT=-2.25e-11 q_stop=0.522 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2034
+[Paper case] high_sinr, seed 2034, costar
+  KKT=5.69e-07 eigT=-2.96e-12 q_stop=0.0569 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] High SINR, seed 2035
+[Paper case] high_sinr, seed 2035, costar
+  KKT=7.92e-06 eigT=-8.13e-07 q_stop=0.792 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2026
+[Paper case] more_aps, seed 2026, costar
+  KKT=7.86e-08 eigT=-1.82e-14 q_stop=0.00786 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2027
+[Paper case] more_aps, seed 2027, costar
+  KKT=9.73e-06 eigT=-2.64e-09 q_stop=0.973 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2028
+[Paper case] more_aps, seed 2028, costar
+  KKT=2.12e-08 eigT=-8.25e-10 q_stop=0.00212 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2029
+[Paper case] more_aps, seed 2029, costar
+  KKT=1.73e-08 eigT=-9.32e-10 q_stop=0.00173 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2030
+[Paper case] more_aps, seed 2030, costar
+  KKT=5.3e-06 eigT=-3.6e-10 q_stop=0.53 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2031
+[Paper case] more_aps, seed 2031, costar
+  KKT=7.35e-08 eigT=-3.05e-09 q_stop=0.00735 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2032
+[Paper case] more_aps, seed 2032, costar
+  KKT=2.47e-08 eigT=-1.3e-09 q_stop=0.00247 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2033
+[Paper case] more_aps, seed 2033, costar
+  KKT=7.17e-06 eigT=-1.86e-06 q_stop=0.717 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2034
+[Paper case] more_aps, seed 2034, costar
+  KKT=8.7e-08 eigT=-1.97e-14 q_stop=0.0087 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] More APs, seed 2035
+[Paper case] more_aps, seed 2035, costar
+  KKT=4.42e-07 eigT=-3.85e-13 q_stop=0.0442 fullstop=1 epsilon2=7.5e-06
+[Paper Fig4] Single-panel PDF/EPS/PNG exported to C:\Users\Veins\Documents\2026.07 CRLB二阶优化\COSTAR_PaperFigures_20261019\figures
+[Paper Fig4] Default: 10/10 jointly attained.
+[Paper Fig4] High SINR: 10/10 jointly attained.
+[Paper Fig4] More APs: 10/10 jointly attained.

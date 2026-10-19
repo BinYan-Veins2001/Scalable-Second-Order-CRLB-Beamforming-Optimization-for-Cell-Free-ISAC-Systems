@@ -1,0 +1,190 @@
+C:\Users\Veins\Documents\2026.07 CRLB二阶优化\COSTAR_TWC_Simulations_ExactHVP_PTR_20260907\data\fig07_data.mat
+    10
+
+zf_bf history:    {'time_s'            }
+    {'crlb'              }
+    {'kkt_residual'      }
+    {'feasible'          }
+    {'phase'             }
+    {'z_snapshots'       }
+    {'active_sinr_count' }
+    {'active_power_count'}
+
+solution:    {'info'   }
+    {'success'}
+
+so_bf history:    {'time_s'            }
+    {'crlb'              }
+    {'kkt_residual'      }
+    {'feasible'          }
+    {'phase'             }
+    {'z_snapshots'       }
+    {'active_sinr_count' }
+    {'active_power_count'}
+
+solution:    {'info'   }
+    {'success'}
+
+pfo_alm history:    {'time_s'      }
+    {'crlb'        }
+    {'kkt_residual'}
+    {'feasible'    }
+    {'phase'       }
+    {'z_snapshots' }
+
+solution:    {'success'                    }
+    {'message'                    }
+    {'initial_Wmat'               }
+    {'initial_wcell'              }
+    {'initial_z'                  }
+    {'caller_supplied_initializer'}
+    {'mu'                         }
+    {'rho'                        }
+    {'obj_scale'                  }
+    {'metrics'                    }
+    {'ppfo_enabled'               }
+    {'perturbation_count'         }
+    {'returned_best_incumbent'    }
+    {'best_feasible_crlb'         }
+    {'best_feasible_iter'         }
+    {'best_feasible_outer'        }
+    {'initializer_info'           }
+
+ptr_alm history:    {'time_s'      }
+    {'crlb'        }
+    {'kkt_residual'}
+    {'feasible'    }
+    {'phase'       }
+    {'z_snapshots' }
+
+solution:    {'success'                    }
+    {'message'                    }
+    {'initial_Wmat'               }
+    {'initial_wcell'              }
+    {'initial_z'                  }
+    {'mu'                         }
+    {'rho'                        }
+    {'delta'                      }
+    {'state'                      }
+    {'obj_scale'                  }
+    {'metrics'                    }
+    {'returned_best_incumbent'    }
+    {'best_feasible_crlb'         }
+    {'best_feasible_iter'         }
+    {'best_feasible_outer'        }
+    {'pfo_endpoint_feasible'      }
+    {'ptr_endpoint_feasible'      }
+    {'converged_pfo'              }
+    {'converged_ptr'              }
+    {'pfo_stage_runtime_s'        }
+    {'ptr_stage_runtime_s'        }
+    {'selected_stage'             }
+    {'pfo_stage_crlb'             }
+    {'ptr_stage_crlb'             }
+    {'safeguard_enabled'          }
+    {'method'                     }
+    {'max_outer'                  }
+    {'max_inner'                  }
+    {'caller_supplied_initializer'}
+    {'initializer_info'           }
+
+mrfp_sca history:    {'time_s'            }
+    {'crlb'              }
+    {'kkt_residual'      }
+    {'feasible'          }
+    {'phase'             }
+    {'z_snapshots'       }
+    {'active_sinr_count' }
+    {'active_power_count'}
+
+solution:    {'metrics'                  }
+    {'success'                  }
+    {'message'                  }
+    {'method'                   }
+    {'full_name'                }
+    {'initializer_method'       }
+    {'initial_metrics'          }
+    {'num_iterations'           }
+    {'total_runtime'            }
+    {'cvx_status'               }
+    {'first_order_only'         }
+    {'negative_curvature_escape'}
+    {'phase1_method'            }
+    {'phase2_method'            }
+    {'initializer_info'         }
+    {'phase1_runtime'           }
+    {'phase2_runtime'           }
+
+costar history:    {'time_s'            }
+    {'crlb'              }
+    {'kkt_residual'      }
+    {'feasible'          }
+    {'phase'             }
+    {'z_snapshots'       }
+    {'rtr_start_time_s'  }
+    {'raw'               }
+    {'active_sinr_count' }
+    {'active_power_count'}
+
+solution:    {'success'                       }
+    {'message'                       }
+    {'metrics'                       }
+    {'runtime'                       }
+    {'lambda'                        }
+    {'lambda_min'                    }
+    {'negative_curvature'            }
+    {'stationarity'                  }
+    {'primal_residual'               }
+    {'delta'                         }
+    {'work'                          }
+    {'options'                       }
+    {'phase2_method'                 }
+    {'phase2_variant'                }
+    {'phase2_version'                }
+    {'initializer_info'              }
+    {'initializer_entry_feasible'    }
+    {'initializer_certificate_passed'}
+    {'total_runtime'                 }
+    {'phase1_runtime'                }
+    {'rtr_runtime'                   }
+    {'method'                        }
+    {'phase1_method'                 }
+    {'initializer_configured_mode'   }
+    {'initializer_mode'              }
+    {'initializer_method'            }
+    {'initializer_description'       }
+    {'initializer_version'           }
+    {'algorithm_version'             }
+
+sdr_sca history:    {'time_s'            }
+    {'crlb'              }
+    {'kkt_residual'      }
+    {'feasible'          }
+    {'phase'             }
+    {'z_snapshots'       }
+    {'active_sinr_count' }
+    {'active_power_count'}
+
+solution:    {'success'                  }
+    {'cvx_status'               }
+    {'message'                  }
+    {'metrics_lifted'           }
+    {'metrics_recovered'        }
+    {'num_solved_iterations'    }
+    {'terminated_by_failure'    }
+    {'fisher_scale'             }
+    {'power_scale'              }
+    {'relaxed_Wcell'            }
+    {'relaxed_metrics'          }
+    {'current_Wcell'            }
+    {'current_metrics_lifted'   }
+    {'current_metrics_recovered'}
+    {'best_iteration'           }
+    {'best_phase'               }
+    {'metrics'                  }
+    {'normalized_rank_gap'      }
+    {'method'                   }
+    {'algorithm_version'        }
+    {'runtime_s'                }
+    {'initializer_info'         }
+

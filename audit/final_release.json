@@ -1,0 +1,64 @@
+{
+  "root": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_PaperFigures_20261019",
+  "original_source_files_unchanged": true,
+  "unchanged_components": {
+    "baselines": true,
+    "channels": true,
+    "scenario": true,
+    "crlb": true
+  },
+  "figure1_excluded_from_this_run": true,
+  "figures": [
+    {
+      "figure": 2,
+      "all_four_formats": true,
+      "pdf_pages": 1,
+      "png_dimensions": [
+        698,
+        563
+      ],
+      "archive_exists": true
+    },
+    {
+      "figure": 3,
+      "all_four_formats": true,
+      "pdf_pages": 1,
+      "png_dimensions": [
+        648,
+        461
+      ],
+      "archive_exists": true
+    },
+    {
+      "figure": 4,
+      "all_four_formats": true,
+      "pdf_pages": 1,
+      "png_dimensions": [
+        626,
+        484
+      ],
+      "archive_exists": true
+    },
+    {
+      "figure": 5,
+      "all_four_formats": true,
+      "pdf_pages": 1,
+      "png_dimensions": [
+        661,
+        1040
+      ],
+      "archive_exists": true
+    },
+    {
+      "figure": 6,
+      "all_four_formats": true,
+      "pdf_pages": 1,
+      "png_dimensions": [
+        1351,
+        506
+      ],
+      "archive_exists": true
+    }
+  ],
+  "all_requested_figure_artifacts_exist": true
+}

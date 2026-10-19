@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "paired_inputs": 3,
+  "repetitions_per_solver": 3,
+  "fresh_processes": 18,
+  "threads": 1,
+  "mean_old_median_s": 1.9966435333333334,
+  "mean_new_median_s": 2.9474564333333331,
+  "ratio_of_mean_medians": 1.476205634168783,
+  "mean_paired_runtime_ratio": 1.510433048037827,
+  "maximum_relative_crlb_difference": 1.9798299539500079E-10,
+  "old_joint_passes": 9,
+  "new_joint_passes": 9,
+  "new_own_multiplier_joint_passes": 9,
+  "consistency": {
+    "new_2026": {
+      "same_work_counts": true,
+      "same_endpoint": true,
+      "same_numerical_trace": true,
+      "maximum_endpoint_difference": 0,
+      "compared_repeats": 2
+    },
+    "old_2026": {
+      "same_work_counts": true,
+      "same_endpoint": true,
+      "same_numerical_trace": true,
+      "maximum_endpoint_difference": 0,
+      "compared_repeats": 2
+    },
+    "old_2027": {
+      "same_work_counts": true,
+      "same_endpoint": true,
+      "same_numerical_trace": true,
+      "maximum_endpoint_difference": 0,
+      "compared_repeats": 2
+    },
+    "new_2027": {
+      "same_work_counts": true,
+      "same_endpoint": true,
+      "same_numerical_trace": true,
+      "maximum_endpoint_difference": 0,
+      "compared_repeats": 2
+    },
+    "new_2028": {
+      "same_work_counts": true,
+      "same_endpoint": true,
+      "same_numerical_trace": true,
+      "maximum_endpoint_difference": 0,
+      "compared_repeats": 2
+    },
+    "old_2028": {
+      "same_work_counts": true,
+      "same_endpoint": true,
+      "same_numerical_trace": true,
+      "maximum_endpoint_difference": 0,
+      "compared_repeats": 2
+    }
+  },
+  "aggregation": "Median of all three fresh-process repeats per solver/seed; mean across three paired seeds. Initial runs retained."
+}

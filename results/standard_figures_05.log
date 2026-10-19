@@ -1,0 +1,12 @@
+{错误使用 assert
+Controlled local reference does not satisfy the declared local regularity/accuracy tests.
+
+出错 paperfig_compute05>local_trial (第 82 行)
+assert(reference_check.licq && reference_check.positive_multipliers && ...
+
+出错 paperfig_compute05 (第 26 行)
+    d.trials{t}=local_trial(p,run,o); d.done(t)=true; simtwc_save_atomic(archive,d);
+
+出错 main_fig05_local_quadratic (第 5 行)
+archive=paperfig_compute05(options); o=paperfig_options(options);
+} 

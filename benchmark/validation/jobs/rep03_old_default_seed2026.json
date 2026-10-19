@@ -1,0 +1,13 @@
+{
+  "project_root": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_TWC_SOSP_SharedZF_20261003",
+  "benchmark_root": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_PaperFigures_20261019\\benchmark",
+  "problem_file": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_PaperFigures_20261019\\benchmark\\validation\\problems\\default_seed2026.mat",
+  "label": "old",
+  "case_name": "default",
+  "seed": 2026,
+  "compute_threads": 1,
+  "solver_options": {},
+  "dense_max_dim": 2048,
+  "output_file": "C:\\Users\\Veins\\Documents\\2026.07 CRLB二阶优化\\COSTAR_PaperFigures_20261019\\benchmark\\validation\\raw\\rep03_old_default_seed2026.mat",
+  "repetition": 3
+}

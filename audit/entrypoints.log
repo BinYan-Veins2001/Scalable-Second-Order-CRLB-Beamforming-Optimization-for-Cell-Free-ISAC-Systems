@@ -1,0 +1,14 @@
+                             passed: 1
+                               jobs: 24
+                          endpoints: 4
+         benchmark_source_signature: '75d2addf127697c1a581768994d4e311780b574c5d30d73d3c23e654ffe83d27'
+    all_raw_timing_arrays_preserved: 1
+      optimizer_certified_endpoints: 23
+             optimizer_budget_exits: 1
+        ambient_kernel_certificates: 24
+        tangent_kernel_certificates: 0
+         kernel_negative_directions: 0
+
+[Paper figure 2] COSTAR convergence
+[Paper case] default, seed 2026, costar
+ENTRYPOINT CHECKS PASSED; FIGURE 1 WAS NOT RUN
